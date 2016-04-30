@@ -1,64 +1,3 @@
-/* Copyright Statement:
- *
- * This software/firmware and related documentation ("MediaTek Software") are
- * protected under relevant copyright laws. The information contained herein
- * is confidential and proprietary to MediaTek Inc. and/or its licensors.
- * Without the prior written permission of MediaTek inc. and/or its licensors,
- * any reproduction, modification, use or disclosure of MediaTek Software,
- * and information contained herein, in whole or in part, shall be strictly prohibited.
- */
-/* MediaTek Inc. (C) 2010. All rights reserved.
- *
- * BY OPENING THIS FILE, RECEIVER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
- * THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
- * RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO RECEIVER ON
- * AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES,
- * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF
- * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NONINFRINGEMENT.
- * NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH RESPECT TO THE
- * SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY, INCORPORATED IN, OR
- * SUPPLIED WITH THE MEDIATEK SOFTWARE, AND RECEIVER AGREES TO LOOK ONLY TO SUCH
- * THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO. RECEIVER EXPRESSLY ACKNOWLEDGES
- * THAT IT IS RECEIVER'S SOLE RESPONSIBILITY TO OBTAIN FROM ANY THIRD PARTY ALL PROPER LICENSES
- * CONTAINED IN MEDIATEK SOFTWARE. MEDIATEK SHALL ALSO NOT BE RESPONSIBLE FOR ANY MEDIATEK
- * SOFTWARE RELEASES MADE TO RECEIVER'S SPECIFICATION OR TO CONFORM TO A PARTICULAR
- * STANDARD OR OPEN FORUM. RECEIVER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S ENTIRE AND
- * CUMULATIVE LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE RELEASED HEREUNDER WILL BE,
- * AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE MEDIATEK SOFTWARE AT ISSUE,
- * OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE CHARGE PAID BY RECEIVER TO
- * MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE.
- *
- * The following software/firmware and/or related documentation ("MediaTek Software")
- * have been modified by MediaTek Inc. All revisions are subject to any receiver's
- * applicable license agreements with MediaTek Inc.
- */
-
-/********************************************************************************************
- *     LEGAL DISCLAIMER
- *
- *     (Header of MediaTek Software/Firmware Release or Documentation)
- *
- *     BY OPENING OR USING THIS FILE, BUYER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
- *     THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE") RECEIVED
- *     FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO BUYER ON AN "AS-IS" BASIS
- *     ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES, EXPRESS OR IMPLIED,
- *     INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR
- *     A PARTICULAR PURPOSE OR NONINFRINGEMENT. NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY
- *     WHATSOEVER WITH RESPECT TO THE SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY,
- *     INCORPORATED IN, OR SUPPLIED WITH THE MEDIATEK SOFTWARE, AND BUYER AGREES TO LOOK
- *     ONLY TO SUCH THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO. MEDIATEK SHALL ALSO
- *     NOT BE RESPONSIBLE FOR ANY MEDIATEK SOFTWARE RELEASES MADE TO BUYER'S SPECIFICATION
- *     OR TO CONFORM TO A PARTICULAR STANDARD OR OPEN FORUM.
- *
- *     BUYER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S ENTIRE AND CUMULATIVE LIABILITY WITH
- *     RESPECT TO THE MEDIATEK SOFTWARE RELEASED HEREUNDER WILL BE, AT MEDIATEK'S OPTION,
-TO REVISE OR REPLACE THE MEDIATEK SOFTWARE AT ISSUE, OR REFUND ANY SOFTWARE LICENSE
- *     FEES OR SERVICE CHARGE PAID BY BUYER TO MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE.
- *
- *     THE TRANSACTION CONTEMPLATED HEREUNDER SHALL BE CONSTRUED IN ACCORDANCE WITH THE LAWS
- *     OF THE STATE OF CALIFORNIA, USA, EXCLUDING ITS CONFLICT OF LAWS PRINCIPLES.
- ************************************************************************************************/
-
 /*******************************************************************************
 *   ISP_NVRAM_REGISTER_STRUCT
 ********************************************************************************/
@@ -82,214 +21,214 @@ Idx:{//ISP_NVRAM_REG_INDEX_STRUCT
 
 OBC:{
     {set:{ // 00: profile = preview, sensor mode = preview, iso = 100 ~ 400
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 01: profile = preview, sensor mode = preview, iso = 800 ~ 3200
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 02: profile = preview, sensor mode = capture, iso = 100 ~ 400
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 03: profile = preview, sensor mode = capture, iso = 800 ~ 3200
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 04: profile = preview, sensor mode = video, iso = 100 ~ 400
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 05: profile = preview, sensor mode = video, iso = 800 ~ 3200
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 06: profile = preview, sensor mode = SlimVideo1, iso = 100 ~ 400
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 07: profile = preview, sensor mode = SlimVideo1, iso = 800 ~ 3200
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 08: profile = preview, sensor mode = SlimVideo2, iso = 100 ~ 400
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 09: profile = preview, sensor mode = SlimVideo2, iso = 800 ~ 3200
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 10: profile = video, sensor mode = preview, iso = 100 ~ 400
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 11: profile = video, sensor mode = preview, iso = 800 ~ 3200
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 12: profile = video, sensor mode = capture, iso = 100 ~ 400
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 13: profile = video, sensor mode = capture, iso = 800 ~ 3200
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 14: profile = video, sensor mode = video, iso = 100 ~ 400
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 15: profile = video, sensor mode = video, iso = 800 ~ 3200
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 16: profile = video, sensor mode = SlimVideo1, iso = 100 ~ 400
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 17: profile = video, sensor mode = SlimVideo1, iso = 800 ~ 3200
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 18: profile = video, sensor mode = SlimVideo2, iso = 100 ~ 400
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 19: profile = video, sensor mode = SlimVideo2, iso = 800 ~ 3200
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 20: profile = capture, sensor mode = preview, iso = 100 ~ 400
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 21: profile = capture, sensor mode = preview, iso = 800 ~ 3200
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 22: profile = capture, sensor mode = capture, iso = 100 ~ 400
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 23: profile = capture, sensor mode = capture, iso = 800 ~ 3200
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 24: profile = capture, sensor mode = video, iso = 100 ~ 400
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 25: profile = capture, sensor mode = video, iso = 800 ~ 3200
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 26: profile = capture, sensor mode = SlimVideo1, iso = 100 ~ 400
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 27: profile = capture, sensor mode = SlimVideo1, iso = 800 ~ 3200
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 28: profile = capture, sensor mode = SlimVideo2, iso = 100 ~ 400
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 29: profile = capture, sensor mode = SlimVideo2, iso = 800 ~ 3200
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 30: profile = N3D preview, iso = 100 ~ 400
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 31: profile = N3D preview, iso = 800 ~ 3200
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 32: profile = N3D video, iso = 100 ~ 400
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 33: profile = N3D video, iso = 800 ~ 3200
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 34: profile = N3D capture, iso = 100 ~ 400
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 35: profile = N3D capture, iso = 800 ~ 3200
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 36: profile = IHDR preview, iso = 100 ~ 400
-        0x00001FC0, 0x00001FC0, 0x00001FC0, 0x00001FC0, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 37: profile = IHDR preview, iso = 800 ~ 3200
-        0x00001FC0, 0x00001FC0, 0x00001FC0, 0x00001FC0, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 38: profile = IHDR video, iso = 100 ~ 400
-        0x00001FC0, 0x00001FC0, 0x00001FC0, 0x00001FC0, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 39: profile = IHDR video, iso = 800 ~ 3200
-        0x00001FC0, 0x00001FC0, 0x00001FC0, 0x00001FC0, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 40: profile = preview, sensor mode = custom1, iso = 100 ~ 400
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 41: profile = preview, sensor mode = custom1, iso = 800 ~ 3200
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 42: profile = preview, sensor mode = custom2, iso = 100 ~ 400
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 43: profile = preview, sensor mode = custom2, iso = 800 ~ 3200
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 44: profile = preview, sensor mode = custom3, iso = 100 ~ 400
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 45: profile = preview, sensor mode = custom3, iso = 800 ~ 3200
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 46: profile = preview, sensor mode = custom4, iso = 100 ~ 400
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 47: profile = preview, sensor mode = custom4, iso = 800 ~ 3200
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 48: profile = preview, sensor mode = custom5, iso = 100 ~ 400
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 49: profile = preview, sensor mode = custom5, iso = 800 ~ 3200
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 50: profile = video, sensor mode = custom1, iso = 100 ~ 400
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 51: profile = video, sensor mode = custom1, iso = 800 ~ 3200
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 52: profile = video, sensor mode = custom2, iso = 100 ~ 400
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 53: profile = video, sensor mode = custom2, iso = 800 ~ 3200
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 54: profile = video, sensor mode = custom3, iso = 100 ~ 400
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 55: profile = video, sensor mode = custom3, iso = 800 ~ 3200
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 56: profile = video, sensor mode = custom4, iso = 100 ~ 400
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 57: profile = video, sensor mode = custom4, iso = 800 ~ 3200
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 58: profile = video, sensor mode = custom5, iso = 100 ~ 400
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 59: profile = video, sensor mode = custom5, iso = 800 ~ 3200
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 60: profile = capture, sensor mode = custom1, iso = 100 ~ 400
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 61: profile = capture, sensor mode = custom1, iso = 800 ~ 3200
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 62: profile = capture, sensor mode = custom2, iso = 100 ~ 400
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 63: profile = capture, sensor mode = custom2, iso = 800 ~ 3200
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 64: profile = capture, sensor mode = custom3, iso = 100 ~ 400
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 65: profile = capture, sensor mode = custom3, iso = 800 ~ 3200
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 66: profile = capture, sensor mode = custom4, iso = 100 ~ 400
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 67: profile = capture, sensor mode = custom4, iso = 800 ~ 3200
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 68: profile = capture, sensor mode = custom5, iso = 100 ~ 400
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }},
     {set:{ // 69: profile = capture, sensor mode = custom5, iso = 800 ~ 3200
-        0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00001EFC, 0x00000222, 0x00000222, 0x00000222, 0x00000222
+        0x00002000, 0x00002000, 0x00002000, 0x00002000, 0x00000200, 0x00000200, 0x00000200, 0x00000200
     }}
         
 },
@@ -415,8 +354,8 @@ BPC:{
         0x00000001, 0x000C606E, 0x00000258, 0xB1200100, 0xBB2C616E, 0x00030031, 0x05010519, 0x00000000, 0x00000000, 0x000C606E,
         0x00000258, 0xB1200100
     }},
-    {set:{ // 30: profile = capture, sensor mode = preview, iso = 100
-        0x00000001, 0x000C606E, 0x00000258, 0xB1200100, 0xBB2C616E, 0x00030031, 0x05010519, 0x00000000, 0x00000000, 0x000C606E,
+    {set:{// 30: profile = capture, sensor mode = preview, iso = 100
+        0x00000000, 0x000C606E, 0x00000258, 0xB1200100, 0xBB2C616E, 0x00030031, 0x05010519, 0x00000000, 0x00000000, 0x000C606E,
         0x00000258, 0xB1200100
     }},
     {set:{ // 31: profile = capture, sensor mode = preview, iso = 200 ~ 400
@@ -427,8 +366,8 @@ BPC:{
         0x00000001, 0x000C606E, 0x00000258, 0xB1200100, 0xBB2C616E, 0x00030031, 0x05010519, 0x00000000, 0x00000000, 0x000C606E,
         0x00000258, 0xB1200100
     }},
-    {set:{ // 33: profile = capture, sensor mode = capture, iso = 100
-        0x00000001, 0x000C606E, 0x00000258, 0xB1200100, 0xBB2C616E, 0x00030031, 0x05010519, 0x00000000, 0x00000000, 0x000C606E,
+    {set:{// 33: profile = capture, sensor mode = capture, iso = 100
+        0x00000000, 0x000C606E, 0x00000258, 0xB1200100, 0xBB2C616E, 0x00030031, 0x05010519, 0x00000000, 0x00000000, 0x000C606E,
         0x00000258, 0xB1200100
     }},
     {set:{ // 34: profile = capture, sensor mode = capture, iso = 200 ~ 400
@@ -719,314 +658,314 @@ BPC:{
 },
 
 NR1:{
-    {set:{ // 00: profile = preview, sensor mode = preview, iso = 100
-        0x00000000, 0x10A00A04
+    {set:{// 00: profile = preview, sensor mode = preview, iso = 100
+        0x00000010, 0x10A00A04
     }},
-    {set:{ // 01: profile = preview, sensor mode = preview, iso = 200 ~ 400
-        0x00000000, 0x10A00A04
+    {set:{// 01: profile = preview, sensor mode = preview, iso = 200 ~ 400
+        0x00000010, 0x10A00A04
     }},
-    {set:{ // 02: profile = preview, sensor mode = preview, iso = 800 ~ 3200
+    {set:{// 02: profile = preview, sensor mode = preview, iso = 800 ~ 3200
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 03: profile = preview, sensor mode = capture, iso = 100
+    {set:{// 03: profile = preview, sensor mode = capture, iso = 100
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 04: profile = preview, sensor mode = capture, iso = 200 ~ 400
+    {set:{// 04: profile = preview, sensor mode = capture, iso = 200 ~ 400
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 05: profile = preview, sensor mode = capture, iso = 800 ~ 3200
+    {set:{// 05: profile = preview, sensor mode = capture, iso = 800 ~ 3200
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 06: profile = preview, sensor mode = video, iso = 100
+    {set:{// 06: profile = preview, sensor mode = video, iso = 100
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 07: profile = preview, sensor mode = video, iso = 200 ~ 400
+    {set:{// 07: profile = preview, sensor mode = video, iso = 200 ~ 400
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 08: profile = preview, sensor mode = video, iso = 800 ~ 3200
+    {set:{// 08: profile = preview, sensor mode = video, iso = 800 ~ 3200
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 09: profile = preview, sensor mode = SlimVideo1, iso = 100
+    {set:{// 09: profile = preview, sensor mode = SlimVideo1, iso = 100
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 10: profile = preview, sensor mode = SlimVideo1, iso = 200 ~ 400
+    {set:{// 10: profile = preview, sensor mode = SlimVideo1, iso = 200 ~ 400
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 11: profile = preview, sensor mode = SlimVideo1, iso = 800 ~ 3200
+    {set:{// 11: profile = preview, sensor mode = SlimVideo1, iso = 800 ~ 3200
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 12: profile = preview, sensor mode = SlimVideo2, iso = 100
+    {set:{// 12: profile = preview, sensor mode = SlimVideo2, iso = 100
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 13: profile = preview, sensor mode = SlimVideo2, iso = 200 ~ 400
+    {set:{// 13: profile = preview, sensor mode = SlimVideo2, iso = 200 ~ 400
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 14: profile = preview, sensor mode = SlimVideo2, iso = 800 ~ 3200
+    {set:{// 14: profile = preview, sensor mode = SlimVideo2, iso = 800 ~ 3200
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 15: profile = video, sensor mode = preview, iso = 100
+    {set:{// 15: profile = video, sensor mode = preview, iso = 100
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 16: profile = video, sensor mode = preview, iso = 200 ~ 400
+    {set:{// 16: profile = video, sensor mode = preview, iso = 200 ~ 400
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 17: profile = video, sensor mode = preview, iso = 800 ~ 3200
+    {set:{// 17: profile = video, sensor mode = preview, iso = 800 ~ 3200
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 18: profile = video, sensor mode = capture, iso = 100
+    {set:{// 18: profile = video, sensor mode = capture, iso = 100
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 19: profile = video, sensor mode = capture, iso = 200 ~ 400
+    {set:{// 19: profile = video, sensor mode = capture, iso = 200 ~ 400
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 20: profile = video, sensor mode = capture, iso = 800 ~ 3200
+    {set:{// 20: profile = video, sensor mode = capture, iso = 800 ~ 3200
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 21: profile = video, sensor mode = video, iso = 100
+    {set:{// 21: profile = video, sensor mode = video, iso = 100
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 22: profile = video, sensor mode = video, iso = 200 ~ 400
+    {set:{// 22: profile = video, sensor mode = video, iso = 200 ~ 400
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 23: profile = video, sensor mode = video, iso = 800 ~ 3200
+    {set:{// 23: profile = video, sensor mode = video, iso = 800 ~ 3200
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 24: profile = video, sensor mode = SlimVideo1, iso = 100
+    {set:{// 24: profile = video, sensor mode = SlimVideo1, iso = 100
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 25: profile = video, sensor mode = SlimVideo1, iso = 200 ~ 400
+    {set:{// 25: profile = video, sensor mode = SlimVideo1, iso = 200 ~ 400
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 26: profile = video, sensor mode = SlimVideo1, iso = 800 ~ 3200
+    {set:{// 26: profile = video, sensor mode = SlimVideo1, iso = 800 ~ 3200
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 27: profile = video, sensor mode = SlimVideo2, iso = 100
+    {set:{// 27: profile = video, sensor mode = SlimVideo2, iso = 100
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 28: profile = video, sensor mode = SlimVideo2, iso = 200 ~ 400
+    {set:{// 28: profile = video, sensor mode = SlimVideo2, iso = 200 ~ 400
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 29: profile = video, sensor mode = SlimVideo2, iso = 800 ~ 3200
+    {set:{// 29: profile = video, sensor mode = SlimVideo2, iso = 800 ~ 3200
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 30: profile = capture, sensor mode = preview, iso = 100
-        0x00000000, 0x10A00A04
+    {set:{// 30: profile = capture, sensor mode = preview, iso = 100
+        0x00000010, 0x10A00A04
     }},
-    {set:{ // 31: profile = capture, sensor mode = preview, iso = 200 ~ 400
-        0x00000000, 0x10A00A04
+    {set:{// 31: profile = capture, sensor mode = preview, iso = 200 ~ 400
+        0x00000010, 0x10A00A04
     }},
-    {set:{ // 32: profile = capture, sensor mode = preview, iso = 800 ~ 3200
+    {set:{// 32: profile = capture, sensor mode = preview, iso = 800 ~ 3200
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 33: profile = capture, sensor mode = capture, iso = 100
-        0x00000000, 0x10A00A04
+    {set:{// 33: profile = capture, sensor mode = capture, iso = 100
+        0x00000010, 0x10A00A04
     }},
-    {set:{ // 34: profile = capture, sensor mode = capture, iso = 200 ~ 400
-        0x00000000, 0x10A00A04
+    {set:{// 34: profile = capture, sensor mode = capture, iso = 200 ~ 400
+        0x00000010, 0x10A00A04
     }},
-    {set:{ // 35: profile = capture, sensor mode = capture, iso = 800 ~ 3200
+    {set:{// 33: profile = capture, sensor mode = capture, iso = 100
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 36: profile = capture, sensor mode = video, iso = 100
-        0x00000000, 0x10A00A04
+    {set:{// 34: profile = capture, sensor mode = capture, iso = 200 ~ 400
+        0x00000010, 0x10A00A04
     }},
-    {set:{ // 37: profile = capture, sensor mode = video, iso = 200 ~ 400
+    {set:{// 35: profile = capture, sensor mode = capture, iso = 800 ~ 3200
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 38: profile = capture, sensor mode = video, iso = 800 ~ 3200
+    {set:{// 36: profile = capture, sensor mode = video, iso = 100
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 39: profile = capture, sensor mode = SlimVideo1, iso = 100
+    {set:{// 37: profile = capture, sensor mode = video, iso = 200 ~ 400
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 40: profile = capture, sensor mode = SlimVideo1, iso = 200 ~ 400
+    {set:{// 38: profile = capture, sensor mode = video, iso = 800 ~ 3200
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 41: profile = capture, sensor mode = SlimVideo1, iso = 800 ~ 3200
+    {set:{// 39: profile = capture, sensor mode = SlimVideo1, iso = 100
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 42: profile = capture, sensor mode = SlimVideo2, iso = 100
+    {set:{// 40: profile = capture, sensor mode = SlimVideo1, iso = 200 ~ 400
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 43: profile = capture, sensor mode = SlimVideo2, iso = 200 ~ 400
+    {set:{// 41: profile = capture, sensor mode = SlimVideo1, iso = 800 ~ 3200
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 44: profile = capture, sensor mode = SlimVideo2, iso = 800 ~ 3200
+    {set:{// 42: profile = capture, sensor mode = SlimVideo2, iso = 100
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 45: profile = N3D preview, iso = 100
+    {set:{// 43: profile = capture, sensor mode = SlimVideo2, iso = 200 ~ 400
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 46: profile = N3D preview, iso = 200 ~ 400
+    {set:{// 44: profile = capture, sensor mode = SlimVideo2, iso = 800 ~ 3200
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 47: profile = N3D preview, iso = 800 ~ 3200
+    {set:{// 45: profile = N3D preview, iso = 100
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 48: profile = N3D video, iso = 100
+    {set:{// 46: profile = N3D preview, iso = 200 ~ 400
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 49: profile = N3D video, iso = 200 ~ 400
+    {set:{// 47: profile = N3D preview, iso = 800 ~ 3200
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 50: profile = N3D video, iso = 800 ~ 3200
+    {set:{// 48: profile = N3D video, iso = 100
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 51: profile = N3D capture, iso = 100
+    {set:{// 49: profile = N3D video, iso = 200 ~ 400
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 52: profile = N3D capture, iso = 200 ~ 400
+    {set:{// 50: profile = N3D video, iso = 800 ~ 3200
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 53: profile = N3D capture, iso = 800 ~ 3200
+    {set:{// 51: profile = N3D capture, iso = 100
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 54: profile = preview, sensor mode = custom1, iso = 100
+    {set:{// 52: profile = N3D capture, iso = 200 ~ 400
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 55: profile = preview, sensor mode = custom1, iso = 200 ~ 400
+    {set:{// 53: profile = N3D capture, iso = 800 ~ 3200
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 56: profile = preview, sensor mode = custom1, iso = 800 ~ 3200
+    {set:{// 54: profile = preview, sensor mode = custom1, iso = 100
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 57: profile = preview, sensor mode = custom2, iso = 100
+    {set:{// 55: profile = preview, sensor mode = custom1, iso = 200 ~ 400
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 58: profile = preview, sensor mode = custom2, iso = 200 ~ 400
+    {set:{// 56: profile = preview, sensor mode = custom1, iso = 800 ~ 3200
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 59: profile = preview, sensor mode = custom2, iso = 800 ~ 3200
+    {set:{// 57: profile = preview, sensor mode = custom2, iso = 100
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 60: profile = preview, sensor mode = custom3, iso = 100
+    {set:{// 58: profile = preview, sensor mode = custom2, iso = 200 ~ 400
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 61: profile = preview, sensor mode = custom3, iso = 200 ~ 400
+    {set:{// 59: profile = preview, sensor mode = custom2, iso = 800 ~ 3200
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 62: profile = preview, sensor mode = custom3, iso = 800 ~ 3200
+    {set:{// 60: profile = preview, sensor mode = custom3, iso = 100
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 63: profile = preview, sensor mode = custom4, iso = 100
+    {set:{// 61: profile = preview, sensor mode = custom3, iso = 200 ~ 400
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 64: profile = preview, sensor mode = custom4, iso = 200 ~ 400
+    {set:{// 62: profile = preview, sensor mode = custom3, iso = 800 ~ 3200
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 65: profile = preview, sensor mode = custom4, iso = 800 ~ 3200
+    {set:{// 63: profile = preview, sensor mode = custom4, iso = 100
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 66: profile = preview, sensor mode = custom5, iso = 100
+    {set:{// 64: profile = preview, sensor mode = custom4, iso = 200 ~ 400
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 67: profile = preview, sensor mode = custom5, iso = 200 ~ 400
+    {set:{// 65: profile = preview, sensor mode = custom4, iso = 800 ~ 3200
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 68: profile = preview, sensor mode = custom5, iso = 800 ~ 3200
+    {set:{// 66: profile = preview, sensor mode = custom5, iso = 100
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 69: profile = video, sensor mode = custom1, iso = 100
+    {set:{// 67: profile = preview, sensor mode = custom5, iso = 200 ~ 400
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 70: profile = video, sensor mode = custom1, iso = 200 ~ 400
+    {set:{// 68: profile = preview, sensor mode = custom5, iso = 800 ~ 3200
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 71: profile = video, sensor mode = custom1, iso = 800 ~ 3200
+    {set:{// 69: profile = video, sensor mode = custom1, iso = 100
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 72: profile = video, sensor mode = custom2, iso = 100
+    {set:{// 70: profile = video, sensor mode = custom1, iso = 200 ~ 400
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 73: profile = video, sensor mode = custom2, iso = 200 ~ 400
+    {set:{// 71: profile = video, sensor mode = custom1, iso = 800 ~ 3200
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 74: profile = video, sensor mode = custom2, iso = 800 ~ 3200
+    {set:{// 72: profile = video, sensor mode = custom2, iso = 100
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 75: profile = video, sensor mode = custom3, iso = 100
+    {set:{// 73: profile = video, sensor mode = custom2, iso = 200 ~ 400
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 76: profile = video, sensor mode = custom3, iso = 200 ~ 400
+    {set:{// 74: profile = video, sensor mode = custom2, iso = 800 ~ 3200
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 77: profile = video, sensor mode = custom3, iso = 800 ~ 3200
+    {set:{// 75: profile = video, sensor mode = custom3, iso = 100
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 78: profile = video, sensor mode = custom4, iso = 100
+    {set:{// 76: profile = video, sensor mode = custom3, iso = 200 ~ 400
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 79: profile = video, sensor mode = custom4, iso = 200 ~ 400
+    {set:{// 77: profile = video, sensor mode = custom3, iso = 800 ~ 3200
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 80: profile = video, sensor mode = custom4, iso = 800 ~ 3200
+    {set:{// 78: profile = video, sensor mode = custom4, iso = 100
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 81: profile = video, sensor mode = custom5, iso = 100
+    {set:{// 79: profile = video, sensor mode = custom4, iso = 200 ~ 400
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 82: profile = video, sensor mode = custom5, iso = 200 ~ 400
+    {set:{// 80: profile = video, sensor mode = custom4, iso = 800 ~ 3200
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 83: profile = video, sensor mode = custom5, iso = 800 ~ 3200
+    {set:{// 81: profile = video, sensor mode = custom5, iso = 100
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 84: profile = capture, sensor mode = custom1, iso = 100
+    {set:{// 82: profile = video, sensor mode = custom5, iso = 200 ~ 400
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 85: profile = capture, sensor mode = custom1, iso = 200 ~ 400
+    {set:{// 83: profile = video, sensor mode = custom5, iso = 800 ~ 3200
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 86: profile = capture, sensor mode = custom1, iso = 800 ~ 3200
+    {set:{// 84: profile = capture, sensor mode = custom1, iso = 100
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 87: profile = capture, sensor mode = custom2, iso = 100
+    {set:{// 85: profile = capture, sensor mode = custom1, iso = 200 ~ 400
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 88: profile = capture, sensor mode = custom2, iso = 200 ~ 400
+    {set:{// 86: profile = capture, sensor mode = custom1, iso = 800 ~ 3200
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 89: profile = capture, sensor mode = custom2, iso = 800 ~ 3200
+    {set:{// 87: profile = capture, sensor mode = custom2, iso = 100
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 90: profile = capture, sensor mode = custom3, iso = 100
+    {set:{// 88: profile = capture, sensor mode = custom2, iso = 200 ~ 400
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 91: profile = capture, sensor mode = custom3, iso = 200 ~ 400
+    {set:{// 89: profile = capture, sensor mode = custom2, iso = 800 ~ 3200
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 92: profile = capture, sensor mode = custom3, iso = 800 ~ 3200
+    {set:{// 90: profile = capture, sensor mode = custom3, iso = 100
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 93: profile = capture, sensor mode = custom4, iso = 100
+    {set:{// 91: profile = capture, sensor mode = custom3, iso = 200 ~ 400
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 94: profile = capture, sensor mode = custom4, iso = 200 ~ 400
+    {set:{// 92: profile = capture, sensor mode = custom3, iso = 800 ~ 3200
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 95: profile = capture, sensor mode = custom4, iso = 800 ~ 3200
+    {set:{// 93: profile = capture, sensor mode = custom4, iso = 100
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 96: profile = capture, sensor mode = custom5, iso = 100
+    {set:{// 94: profile = capture, sensor mode = custom4, iso = 200 ~ 400
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 97: profile = capture, sensor mode = custom5, iso = 200 ~ 400
+    {set:{// 95: profile = capture, sensor mode = custom4, iso = 800 ~ 3200
         0x00000000, 0x10A00A04
     }},
-    {set:{ // 98: profile = capture, sensor mode = custom5, iso = 800 ~ 3200
+    {set:{// 96: profile = capture, sensor mode = custom5, iso = 100
         0x00000000, 0x10A00A04
-    }}        
+    }}
 },
 
 LSC:{
     {set:{// 00: Preview
-        0x00000000,0x0000F032,0x0000F025,0x0032002D,0x20202020
+        0x0000300B, 0xB3D8F032, 0xB3D8F025, 0xB032D02D, 0xA0E060A0
     }},
     {set:{// 01: Capture
-        0x00000000,0x0000F064,0x0000F04B,0x0064004B,0x20202020
+        0x0000300B, 0xB3D4F032, 0xB3D4F025, 0xB032E02D, 0xA0E060A0
     }},
     {set:{// 02: Video
-        0x00000000,0x0000F064,0x0000F038,0x0064003C,0x20202020
+        0x0000300B, 0xB3D4F032, 0xB3D4F025, 0xB032E02D, 0xA0E060A0
     }},
     {set:{// 03: Slim Vdo1
         0x00000000, 0x0000F064, 0x0000F038, 0x0064003C, 0x20202020
@@ -1059,7 +998,7 @@ SL2:{
         0x02580320,0x00015F90,0x00057E40,0x00061A80
     }},
     {set:{//00: Preview ct2
-        0x02580320,0x00015F90,0x00057E40,0x00061A80
+        0x02580334, 0x00015F90, 0x00057E40, 0x0009C400
     }},
     {set:{//00: Preview ct3
         0x02580320,0x00015F90,0x00057E40,0x00061A80
@@ -1086,10 +1025,10 @@ SL2:{
         0x03840640,0x0004A0C4,0x00128310,0x0020E900
     }},
     {set:{//02: Video ct3
-        0x03840640,0x0004A0C4,0x00128310,0x0020E900
+        0x0256032E, 0x00015F90, 0x00057E40, 0x0009C400
     }},
     {set:{//03: ct0
-        0x03840640,0x0004A0C4,0x00128310,0x0020E900
+        0x0257032F, 0x00015F90, 0x00057E40, 0x0009C400
     }},
     {set:{//03: ct1
         0x03840640,0x0004A0C4,0x00128310,0x0020E900
@@ -1176,75 +1115,75 @@ SL2:{
 
 
 CFA:{
-    {set:{//00: profile = preview, sensor mode = preview iso = 100
-				0x00000010, 0x00000E03, 0x01182003, 0x80081205, 0xAB8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
-				0x00F7BDEF, 0x01294A52, 0x01294A52, 0x00E739CE, 0x00020200, 0x00000008, 0x640A2468, 0x00000001, 0x0052A5FF, 0x00000000,
-				0x00002001
+    {set:{ // 000: profile = preview, sensor mode = preview iso = 100
+        0x00000000, 0x00000E03, 0x01182003, 0x80081205, 0xAB8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
+        0x00D6B5AD, 0x01084210, 0x01084210, 0x00D6B5AD, 0x00020200, 0x00000008, 0x640A2468, 0x00000003, 0x0052A5FF, 0x00000000,
+        0x00008002
     }},
-    {set:{//01: profile = preview, sensor mode = preview iso = 200
-				0x00000010, 0x00000E03, 0x01182003, 0x80081205, 0xAB8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
-				0x00F7BDEF, 0x01294A52, 0x01294A52, 0x00E739CE, 0x00020200, 0x00000008, 0x640A2468, 0x00000001, 0x0052A5FF, 0x00000000,
-				0x00002001
+    {set:{ // 001: profile = preview, sensor mode = preview iso = 200
+        0x00000000, 0x00000E03, 0x01182003, 0x80081205, 0xAB8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
+        0x00B5AD6B, 0x00E739CE, 0x00E739CE, 0x00C6318C, 0x00020200, 0x00000008, 0x640A2468, 0x00000005, 0x0052A5FF, 0x00000000,
+        0x0000E004
     }},
-    {set:{//02: profile = preview, sensor mode = preview iso = 400
-				0x00000010, 0x00000E03, 0x01182003, 0x80081205, 0xAB8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
-				0x00E739CE, 0x0118C631, 0x0118C631, 0x00D6B5AD, 0x00020200, 0x00000008, 0x640A2468, 0x00000002, 0x0052A5FF, 0x00000000,
-				0x00005001
+    {set:{ // 002: profile = preview, sensor mode = preview iso = 400
+        0x00000000, 0x00000E03, 0x01182003, 0x80081205, 0x2B8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
+        0x00421084, 0x00739CE7, 0x00739CE7, 0x00842108, 0x00020200, 0x00000008, 0x640A2468, 0x0000000C, 0x0052A5FF, 0x00000000,
+        0x00023011
     }},
-    {set:{//03: profile = preview, sensor mode = preview iso = 800
-0x00000010, 0x00000E03, 0x01182003, 0x80081205, 0x2B8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
-0x0094A529, 0x01084210, 0x01084210, 0x00D6B5AD, 0x00020200, 0x00000008, 0x640A2468, 0x00000003, 0x0052A5FF, 0x00000000,
-0x00008002
+    {set:{ // 003: profile = preview, sensor mode = preview iso = 800
+        0x00000000, 0x00000E03, 0x01182003, 0x80081205, 0x2B8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
+        0x00421084, 0x00739CE7, 0x00739CE7, 0x00842108, 0x00020200, 0x00000008, 0x640A2468, 0x0000000C, 0x0052A5FF, 0x00000000,
+        0x00023011
     }},
     {set:{//04: profile = preview, sensor mode = preview iso = 1200
-        0x00000010, 0x00000E03, 0x01182003, 0x80081205, 0xAB8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
-        0x00108421, 0x00842108, 0x00842108, 0x0094A529, 0x00020200, 0x0000000F, 0x4B0F2468, 0x0000000B, 0x00F7BD84, 0x00000000,
-        0x0002000F
+        0x00000000, 0x00000E03, 0x01181A14, 0x800E1A05, 0x01064188, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
+        0x00000000, 0x00108421, 0x00108421, 0x00210842, 0x00020200, 0x00000008, 0x640A2468, 0x0000000C, 0x0052A5FF, 0x00000000,
+        0x0002C016
     }},
     {set:{//05: profile = preview, sensor mode = preview iso = 1600
-        0x00000010, 0x00000E03, 0x01182003, 0x80081205, 0xAB8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
-        0x00108421, 0x00842108, 0x00842108, 0x0094A529, 0x00020200, 0x0000000F, 0x4B0F2468, 0x0000000B, 0x00F7BD84, 0x00000000,
-        0x0002000F
+        0x00000000, 0x00000E03, 0x01181A14, 0x800E1A05, 0x01064188, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
+        0x00000000, 0x00108421, 0x00108421, 0x00210842, 0x00020200, 0x00000008, 0x640A2468, 0x0000000C, 0x0052A5FF, 0x00000000,
+        0x0002C016
     }},
     {set:{//06: profile = preview, sensor mode = preview iso = 2000
-        0x00000010, 0x00000E03, 0x01182003, 0x80081205, 0xAB8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
-        0x00318C63, 0x00A5294A, 0x00A5294A, 0x00A5294A, 0x00020200, 0x0000000F, 0x4B0F2468, 0x00000009, 0x00F7BD84, 0x00000000,
-        0x0001A00B
+        0x00000000, 0x00000E03, 0x01181A14, 0x800E1A05, 0x01064188, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
+        0x00000000, 0x00108421, 0x00108421, 0x00210842, 0x00020200, 0x00000008, 0x640A2468, 0x0000000C, 0x0052A5FF, 0x00000000,
+        0x0002C016
     }},
     {set:{//07: profile = preview, sensor mode = preview iso = 2400
-        0x00000010, 0x00000E03, 0x01182003, 0x80081205, 0xAB8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
-        0x00318C63, 0x00A5294A, 0x00A5294A, 0x00A5294A, 0x00020200, 0x0000000F, 0x4B0F2468, 0x00000009, 0x00F7BD84, 0x00000000,
-        0x0001A00B
+        0x00000000, 0x00000E03, 0x01181A14, 0x800E1A05, 0x01064188, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
+        0x00000000, 0x00108421, 0x00108421, 0x00210842, 0x00020200, 0x00000008, 0x640A2468, 0x0000000C, 0x0052A5FF, 0x00000000,
+        0x0002C016
     }},
     {set:{//08: profile = preview, sensor mode = preview iso = 2800
-        0x00000010, 0x00000E03, 0x01182003, 0x80081205, 0xAB8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
-        0x00421084, 0x00B5AD6B, 0x00B5AD6B, 0x00A5294A, 0x00020200, 0x0000000F, 0x4B0F2468, 0x00000008, 0x00F7BD84, 0x00000000,
-        0x00017009
+        0x00000000, 0x00000E03, 0x01181A14, 0x800E1A05, 0x01064188, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
+        0x00000000, 0x00108421, 0x00108421, 0x00210842, 0x00020200, 0x00000008, 0x640A2468, 0x0000000C, 0x0052A5FF, 0x00000000,
+        0x0002C016
     }},
     {set:{//09: profile = preview, sensor mode = preview iso = 3200
-        0x00000010, 0x00000E03, 0x01182003, 0x80081205, 0xAB8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
-        0x00421084, 0x00B5AD6B, 0x00B5AD6B, 0x00A5294A, 0x00020200, 0x0000000F, 0x4B0F2468, 0x00000008, 0x00F7BD84, 0x00000000,
-        0x00017009
+        0x00000000, 0x00000E03, 0x01181A14, 0x800E1A05, 0x01064188, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
+        0x00000000, 0x00108421, 0x00108421, 0x00210842, 0x00020200, 0x00000008, 0x640A2468, 0x0000000C, 0x0052A5FF, 0x00000000,
+        0x0002C016
     }},
-    {set:{//10: profile = preview, sensor mode = capture iso = 100
-				0x00000010, 0x00000E03, 0x01182003, 0x80081205, 0xAB8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
-				0x00F7BDEF, 0x01294A52, 0x01294A52, 0x00E739CE, 0x00020200, 0x00000008, 0x640A2468, 0x00000001, 0x0052A5FF, 0x00000000,
-				0x00002001
+    {set:{ // 010: profile = preview, sensor mode = capture iso = 100
+        0x00000000, 0x00000E03, 0x01182003, 0x80081205, 0xAB8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
+        0x00D6B5AD, 0x01084210, 0x01084210, 0x00D6B5AD, 0x00020200, 0x00000008, 0x640A2468, 0x00000003, 0x0052A5FF, 0x00000000,
+        0x00008002
     }},
-    {set:{//11: profile = preview, sensor mode = capture iso = 200
-				0x00000010, 0x00000E03, 0x01182003, 0x80081205, 0xAB8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
-				0x00F7BDEF, 0x01294A52, 0x01294A52, 0x00E739CE, 0x00020200, 0x00000008, 0x640A2468, 0x00000001, 0x0052A5FF, 0x00000000,
-				0x00002001
+    {set:{ // 011: profile = preview, sensor mode = capture iso = 200
+        0x00000000, 0x00000E03, 0x01182003, 0x80081205, 0x2B8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
+        0x00B5AD6B, 0x00C6318C, 0x00C6318C, 0x00B5AD6B, 0x00020200, 0x00000008, 0x640A2468, 0x00000007, 0x0052A5FF, 0x00000000,
+        0x00014007
     }},
-    {set:{//12: profile = preview, sensor mode = capture iso = 400
-				0x00000010, 0x00000E03, 0x01182003, 0x80081205, 0xAB8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
-				0x00E739CE, 0x0118C631, 0x0118C631, 0x00D6B5AD, 0x00020200, 0x00000008, 0x640A2468, 0x00000002, 0x0052A5FF, 0x00000000,
-				0x00005001
+    {set:{ // 012: profile = preview, sensor mode = capture iso = 400
+        0x00000000, 0x00000E03, 0x01182003, 0x80081205, 0x2B8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
+        0x00421084, 0x00739CE7, 0x00739CE7, 0x00842108, 0x00020200, 0x00000008, 0x640A2468, 0x0000000C, 0x0052A5FF, 0x00000000,
+        0x00023011
     }},
-    {set:{//13: profile = preview, sensor mode = capture iso = 800
-0x00000010, 0x00000E03, 0x01182003, 0x80081205, 0x2B8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
-0x0094A529, 0x01084210, 0x01084210, 0x00D6B5AD, 0x00020200, 0x00000008, 0x640A2468, 0x00000003, 0x0052A5FF, 0x00000000,
-0x00008002
+    {set:{ // 013: profile = preview, sensor mode = capture iso = 800
+        0x00000000, 0x00000E03, 0x01182003, 0x80081205, 0x2B8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
+        0x00421084, 0x00739CE7, 0x00739CE7, 0x00842108, 0x00020200, 0x00000008, 0x640A2468, 0x0000000C, 0x0052A5FF, 0x00000000,
+        0x00023011
     }},
     {set:{//14: profile = preview, sensor mode = capture iso = 1200
         0x00000010, 0x00000E03, 0x01182003, 0x80081205, 0xAB8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
@@ -1677,24 +1616,24 @@ CFA:{
         0x0002000C
     }},
     {set:{ // 100: profile = capture, sensor mode = preview, iso = 100
-				0x00000000, 0x00000E03, 0x01182003, 0x80081205, 0xAB8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
-				0x00F7BDEF, 0x01294A52, 0x01294A52, 0x00E739CE, 0x00020200, 0x00000008, 0x640A2468, 0x00000001, 0x0052A5FF, 0x00000000,
-				0x00002001
+        0x00000000, 0x00000E03, 0x01182003, 0x80081205, 0xAB8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
+        0x00D6B5AD, 0x01084210, 0x01084210, 0x00D6B5AD, 0x00020200, 0x00000008, 0x640A2468, 0x00000003, 0x0052A5FF, 0x00000000,
+        0x00008002
     }},
     {set:{ // 101: profile = capture, sensor mode = preview, iso = 200
-				0x00000000, 0x00000E03, 0x01182003, 0x80081205, 0xAB8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
-				0x00F7BDEF, 0x01294A52, 0x01294A52, 0x00E739CE, 0x00020200, 0x00000008, 0x640A2468, 0x00000001, 0x0052A5FF, 0x00000000,
-				0x00002001
+        0x00000000, 0x00000E03, 0x01182003, 0x80081205, 0xAB8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
+        0x0094A529, 0x00C6318C, 0x00C6318C, 0x00B5AD6B, 0x00020200, 0x00000008, 0x640A2468, 0x00000007, 0x0052A5FF, 0x00000000,
+        0x00014007
     }},
     {set:{ // 102: profile = capture, sensor mode = preview, iso = 400
-				0x00000000, 0x00000E03, 0x01182003, 0x80081205, 0xAB8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
-				0x00E739CE, 0x0118C631, 0x0118C631, 0x00D6B5AD, 0x00020200, 0x00000008, 0x640A2468, 0x00000002, 0x0052A5FF, 0x00000000,
-				0x00005001
+        0x00000000, 0x00000E03, 0x01182003, 0x80081205, 0x2B8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
+        0x00421084, 0x00739CE7, 0x00739CE7, 0x00842108, 0x00020200, 0x00000008, 0x640A2468, 0x0000000C, 0x0052A5FF, 0x00000000,
+        0x00023011
     }},
     {set:{ // 103: profile = capture, sensor mode = preview, iso = 800
-				0x00000000, 0x00000E03, 0x01182003, 0x80081205, 0xAB8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
-				0x00B5AD6B, 0x01084210, 0x01084210, 0x00D6B5AD, 0x00020200, 0x00000008, 0x640A2468, 0x00000003, 0x0052A5FF, 0x00000000,
-				0x00008002
+        0x00000000, 0x00000E03, 0x01182003, 0x80081205, 0x2B8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
+        0x00421084, 0x00739CE7, 0x00739CE7, 0x00842108, 0x00020200, 0x00000008, 0x640A2468, 0x0000000C, 0x0052A5FF, 0x00000000,
+        0x00023011
     }},
     {set:{ // 104: profile = capture, sensor mode = preview, iso = 1200
         0x00000000, 0x00000E03, 0x01182019, 0x000E120D, 0x81064188, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
@@ -1727,24 +1666,24 @@ CFA:{
         0x0002000C
     }},
     {set:{ // 110: profile = capture, sensor mode = capture, iso = 100
-				0x00000000, 0x00000E03, 0x01182003, 0x80081205, 0xAB8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
-				0x00F7BDEF, 0x01294A52, 0x01294A52, 0x00E739CE, 0x00020200, 0x00000008, 0x640A2468, 0x00000001, 0x0052A5FF, 0x00000000,
-				0x00002001
+        0x00000000, 0x00000E03, 0x01182003, 0x80081205, 0xAB8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
+        0x00D6B5AD, 0x01084210, 0x01084210, 0x00D6B5AD, 0x00020200, 0x00000008, 0x640A2468, 0x00000003, 0x0052A5FF, 0x00000000,
+        0x00008002
     }},
     {set:{ // 111: profile = capture, sensor mode = capture, iso = 200
-				0x00000000, 0x00000E03, 0x01182003, 0x80081205, 0xAB8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
-				0x00F7BDEF, 0x01294A52, 0x01294A52, 0x00E739CE, 0x00020200, 0x00000008, 0x640A2468, 0x00000001, 0x0052A5FF, 0x00000000,
-				0x00002001
+        0x00000000, 0x00000E03, 0x01182003, 0x80081205, 0xAB8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
+        0x0094A529, 0x00C6318C, 0x00C6318C, 0x00B5AD6B, 0x00020200, 0x00000008, 0x640A2468, 0x00000007, 0x0052A5FF, 0x00000000,
+        0x00014007
     }},
     {set:{ // 112: profile = capture, sensor mode = capture, iso = 400
-				0x00000000, 0x00000E03, 0x01182003, 0x80081205, 0xAB8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
-				0x00E739CE, 0x0118C631, 0x0118C631, 0x00D6B5AD, 0x00020200, 0x00000008, 0x640A2468, 0x00000002, 0x0052A5FF, 0x00000000,
-				0x00005001
+        0x00000000, 0x00000E03, 0x01182003, 0x80081205, 0x2B8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
+        0x00421084, 0x00739CE7, 0x00739CE7, 0x00842108, 0x00020200, 0x00000008, 0x640A2468, 0x0000000C, 0x0052A5FF, 0x00000000,
+        0x00023011
     }},
     {set:{ // 113: profile = capture, sensor mode = capture, iso = 800
-				0x00000000, 0x00000E03, 0x01182003, 0x80081205, 0xAB8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
-				0x00B5AD6B, 0x01084210, 0x01084210, 0x00D6B5AD, 0x00020200, 0x00000008, 0x640A2468, 0x00000003, 0x0052A5FF, 0x00000000,
-				0x00008002
+        0x00000000, 0x00000E03, 0x01182003, 0x80081205, 0xAB8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
+        0x00B5AD6B, 0x01084210, 0x01084210, 0x00D6B5AD, 0x00020200, 0x00000008, 0x640A2468, 0x00000003, 0x0052A5FF, 0x00000000,
+        0x00008002
     }},
     {set:{ // 114: profile = capture, sensor mode = capture, iso = 1200
         0x00000000, 0x00000E03, 0x01182019, 0x000E120D, 0x81064188, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
@@ -1777,14 +1716,14 @@ CFA:{
         0x0002000C
     }},
     {set:{ // 120: profile = capture, sensor mode = video, iso = 100
-        0x00000000, 0x00000E03, 0x01182019, 0x000E120D, 0x81064188, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
-        0x00421084, 0x00421084, 0x00421084, 0x00739CE7, 0x00020200, 0x00000000, 0x640A2468, 0x0000000C, 0x0052A5FF, 0x00000000,
-        0x0002000C
+        0x00000000, 0x00000E03, 0x01182003, 0x80081205, 0xAB8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
+        0x00D6B5AD, 0x01084210, 0x01084210, 0x00D6B5AD, 0x00020200, 0x00000008, 0x640A2468, 0x00000003, 0x0052A5FF, 0x00000000,
+        0x00008002
     }},
     {set:{ // 121: profile = capture, sensor mode = video, iso = 200
-        0x00000000, 0x00000E03, 0x01182019, 0x000E120D, 0x81064188, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
-        0x00421084, 0x00421084, 0x00421084, 0x00739CE7, 0x00020200, 0x00000000, 0x640A2468, 0x0000000C, 0x0052A5FF, 0x00000000,
-        0x0002000C
+        0x00000000, 0x00000E03, 0x01182003, 0x80081205, 0xAB8C6308, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
+        0x0094A529, 0x00C6318C, 0x00C6318C, 0x00B5AD6B, 0x00020200, 0x00000008, 0x640A2468, 0x00000007, 0x0052A5FF, 0x00000000,
+        0x00014007
     }},
     {set:{ // 122: profile = capture, sensor mode = video, iso = 400
         0x00000000, 0x00000E03, 0x01182019, 0x000E120D, 0x81064188, 0x0000300A, 0x00288C14, 0x00290446, 0x0029FE78, 0x0029B864,
@@ -3692,21 +3631,21 @@ IHDR_GGM:{
 
 
 ANR:{
-    {set:{//00: profile = preview, sensor mode = preview ISO100
-0x00040013, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x1E140E07, 0x0042090A,
-0x291C130A, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x0F05191D, 0x40004000
+    {set:{ // 000: profile = preview, sensor mode = preview ISO100           
+        0x00040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1E1C0000, 0x3222170C, 0x004B020A,
+        0x09060402, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x10001C2B, 0x40004000
     }},
-    {set:{//01: profile = preview, sensor mode = preview ISO200
-0x00040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x22171008, 0x0048090A,
-0x291C130A, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x0D031620, 0x40004000
+    {set:{ // 001: profile = preview, sensor mode = preview ISO200           
+        0x01040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1E1C0000, 0x422D1F10, 0x0061020A,
+        0x09060402, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x14002235, 0x40004000
     }},
-    {set:{//02: profile = preview, sensor mode = preview ISO400
-0x00040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x271A1209, 0x004F090A,
-0x291C130A, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x0E011823, 0x40004000
+    {set:{ // 002: profile = preview, sensor mode = preview ISO400           
+        0x01040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1E1C0000, 0x53392715, 0x007D030A,
+        0x0F0A0703, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x14002240, 0x40004000
     }},
-    {set:{//03: profile = preview, sensor mode = preview ISO800
-0x00040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x3021160C, 0x0053060A,
-0x1C130D07, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x10001C29, 0x2D002D00
+    {set:{ // 003: profile = preview, sensor mode = preview ISO800           
+        0x01040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1E1C0000, 0x53392715, 0x007D030A,
+        0x0F0A0703, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x14002240, 0x40004000
     }},
     {set:{//04: profile = preview, sensor mode = preview ISO1200
 0x00040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x3021160C, 0x005B090A,
@@ -3732,21 +3671,21 @@ ANR:{
 0x00040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x3021160C, 0x005B090A,
 0x291C130A, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x10001C29, 0x2D002D00
     }},
-    {set:{//10: profile = preview, sensor mode = capture ISO100
-				0x00040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x2D1F150B, 0x0057090A,
-				0x291C130A, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x0F001928, 0x40004000
+    {set:{ // 010: profile = preview, sensor mode = capture ISO100           
+        0x00040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1E1C0000, 0x3222170C, 0x004B020A,
+        0x09060402, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x10001C2B, 0x40004000
     }},
-    {set:{//11: profile = preview, sensor mode = capture ISO200
-				0x01040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x3021160C, 0x00630C0A,
-				0x36251A0D, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x12001E29, 0x40004000
+    {set:{ // 011: profile = preview, sensor mode = capture ISO200           
+        0x01040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1E1C0000, 0x422D1F10, 0x0061020A,
+        0x09060402, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x14002235, 0x40004000
     }},
-    {set:{//12: profile = preview, sensor mode = capture ISO400
-				0x01040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x402C1E10, 0x008C110A,
-				0x543A2815, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x17002734, 0x40004000
+    {set:{ // 012: profile = preview, sensor mode = capture ISO400           
+        0x01040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1E1C0000, 0x53392715, 0x007D030A,
+        0x0F0A0703, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x14002240, 0x40004000
     }},
-    {set:{//13: profile = preview, sensor mode = capture ISO800
-				0x01040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x39271B0E, 0x0082110A,
-				0x543A2815, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x1600262F, 0x40004000
+    {set:{ // 013: profile = preview, sensor mode = capture ISO800           
+        0x01040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x39271B0E, 0x0060060A,
+        0x1C130D07, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x1600262F, 0x40004000
     }},
     {set:{//14: profile = preview, sensor mode = capture ISO1200
 				0x01040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x3424190D, 0x008F170A,
@@ -4092,111 +4031,111 @@ ANR:{
         0x01040013, 0x00001012, 0x00021100, 0x09000400, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x0C080402, 0x004B060A,
         0x06040302, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x12071E0F, 0x4000400A
     }},
-    {set:{ // 100: profile = capture, sensor mode = preview, iso = 100
+    {set:{ // 100: profile = capture, sensor mode = preview, iso = 100    
+        0x00040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1E1C0000, 0x3222170C, 0x005E090A,
+        0x291C130A, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x10001C2B, 0x40004000
+    }},
+    {set:{ // 101: profile = capture, sensor mode = preview, iso = 200    
+        0x01040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1E1C0000, 0x422D1F10, 0x007C0C0A,
+        0x36251A0D, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x14002235, 0x40004000
+    }},
+    {set:{ // 102: profile = capture, sensor mode = preview, iso = 400    
+        0x01040020, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1E1C0000, 0x53392715, 0x00A4110A,
+        0x51382614, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x14002240, 0x40004000
+    }},
+    {set:{ // 103: profile = capture, sensor mode = preview, iso = 800    
+        0x01040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1E1C0000, 0x53392715, 0x00A4110A,
+        0x51382614, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x14002240, 0x40004000
+    }},
+    {set:{ // 104: profile = capture, sensor mode = preview, iso = 1200   
         0x01040013, 0x00001012, 0x00021100, 0x09000400, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x0C080402, 0x004B060A,
         0x06040302, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x12071E0F, 0x4000400A
     }},
-    {set:{ // 101: profile = capture, sensor mode = preview, iso = 200
+    {set:{ // 105: profile = capture, sensor mode = preview, iso = 1600   
         0x01040013, 0x00001012, 0x00021100, 0x09000400, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x0C080402, 0x004B060A,
         0x06040302, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x12071E0F, 0x4000400A
     }},
-    {set:{ // 102: profile = capture, sensor mode = preview, iso = 400
+    {set:{ // 106: profile = capture, sensor mode = preview, iso = 2000   
         0x01040013, 0x00001012, 0x00021100, 0x09000400, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x0C080402, 0x004B060A,
         0x06040302, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x12071E0F, 0x4000400A
     }},
-    {set:{ // 103: profile = capture, sensor mode = preview, iso = 800
+    {set:{ // 107: profile = capture, sensor mode = preview, iso = 2400   
         0x01040013, 0x00001012, 0x00021100, 0x09000400, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x0C080402, 0x004B060A,
         0x06040302, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x12071E0F, 0x4000400A
     }},
-    {set:{ // 104: profile = capture, sensor mode = preview, iso = 1200
+    {set:{ // 108: profile = capture, sensor mode = preview, iso = 2800   
         0x01040013, 0x00001012, 0x00021100, 0x09000400, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x0C080402, 0x004B060A,
         0x06040302, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x12071E0F, 0x4000400A
     }},
-    {set:{ // 105: profile = capture, sensor mode = preview, iso = 1600
+    {set:{ // 109: profile = capture, sensor mode = preview, iso = 3200   
         0x01040013, 0x00001012, 0x00021100, 0x09000400, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x0C080402, 0x004B060A,
         0x06040302, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x12071E0F, 0x4000400A
     }},
-    {set:{ // 106: profile = capture, sensor mode = preview, iso = 2000
+    {set:{ // 110: profile = capture, sensor mode = capture, iso = 100    
+        0x00040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1E1C0000, 0x3222170C, 0x005E090A,
+        0x291C130A, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x10001C2B, 0x40004000
+    }},
+    {set:{ // 111: profile = capture, sensor mode = capture, iso = 200    
+        0x01040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1E1C0000, 0x3B291C0F, 0x00730C0A,
+        0x36251A0D, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x12001E31, 0x40004000
+    }},
+    {set:{ // 112: profile = capture, sensor mode = capture, iso = 400    
+        0x01040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1E1C0000, 0x53392715, 0x00A4110A,
+        0x51382614, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x14002240, 0x40004000
+    }},
+    {set:{ // 113: profile = capture, sensor mode = capture, iso = 800    
+        0x01040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x39271B0E, 0x0082110A,
+        0x543A2815, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x1600262F, 0x40004000
+    }},
+    {set:{ // 114: profile = capture, sensor mode = capture, iso = 1200   
+        0x01040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x3424190D, 0x008F170A,
+        0x7550371D, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x1400222C, 0x40004000
+    }},
+    {set:{ // 115: profile = capture, sensor mode = capture, iso = 1600   
+        0x01040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x3424190D, 0x008F170A,
+        0x7550371D, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x1400222C, 0x40004000
+    }},
+    {set:{ // 116: profile = capture, sensor mode = capture, iso = 2000   
+        0x01040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x3424190D, 0x008F170A,
+        0x7550371D, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x1400222C, 0x40004000
+    }},
+    {set:{ // 117: profile = capture, sensor mode = capture, iso = 2400   
+        0x01040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x3424190D, 0x008F170A,
+        0x7550371D, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x1400222C, 0x40004000
+    }},
+    {set:{ // 118: profile = capture, sensor mode = capture, iso = 2800   
+        0x01040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x3424190D, 0x008F170A,
+        0x7550371D, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x1400222C, 0x40004000
+    }},
+    {set:{ // 119: profile = capture, sensor mode = capture, iso = 3200   
+        0x01040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x3424190D, 0x008F170A,
+        0x7550371D, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x1400222C, 0x40004000
+    }},
+    {set:{ // 120: profile = capture, sensor mode = video, iso = 100      
+        0x00040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1E1C0000, 0x3222170C, 0x005E090A,
+        0x291C130A, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x10001C2B, 0x40004000
+    }},
+    {set:{ // 121: profile = capture, sensor mode = video, iso = 200      
+        0x01040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1E1C0000, 0x422D1F10, 0x007C0C0A,
+        0x36251A0D, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x14002235, 0x40004000
+    }},
+    {set:{ // 122: profile = capture, sensor mode = video, iso = 400      
         0x01040013, 0x00001012, 0x00021100, 0x09000400, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x0C080402, 0x004B060A,
         0x06040302, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x12071E0F, 0x4000400A
     }},
-    {set:{ // 107: profile = capture, sensor mode = preview, iso = 2400
+    {set:{ // 123: profile = capture, sensor mode = video, iso = 800      
         0x01040013, 0x00001012, 0x00021100, 0x09000400, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x0C080402, 0x004B060A,
         0x06040302, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x12071E0F, 0x4000400A
     }},
-    {set:{ // 108: profile = capture, sensor mode = preview, iso = 2800
+    {set:{ // 124: profile = capture, sensor mode = video, iso = 1200     
         0x01040013, 0x00001012, 0x00021100, 0x09000400, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x0C080402, 0x004B060A,
         0x06040302, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x12071E0F, 0x4000400A
     }},
-    {set:{ // 109: profile = capture, sensor mode = preview, iso = 3200
+    {set:{ // 125: profile = capture, sensor mode = video, iso = 1600     
         0x01040013, 0x00001012, 0x00021100, 0x09000400, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x0C080402, 0x004B060A,
         0x06040302, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x12071E0F, 0x4000400A
     }},
-    {set:{ // 110: profile = capture, sensor mode = capture, iso = 100
-0x00040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x2D1F150B, 0x0057090A,
-0x291C130A, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x0F001928, 0x40004000
-    }},
-    {set:{ // 111: profile = capture, sensor mode = capture, iso = 200
-				0x01040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x3021160C, 0x00630C0A,
-				0x36251A0D, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x12001E29, 0x40004000
-    }},
-    {set:{ // 112: profile = capture, sensor mode = capture, iso = 400
-0x01040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x402C1E10, 0x008C110A,
-0x543A2815, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x17002734, 0x40004000
-    }},
-    {set:{ // 113: profile = capture, sensor mode = capture, iso = 800
-0x01040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x39271B0E, 0x0082110A,
-0x543A2815, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x1600262F, 0x40004000
-    }},
-    {set:{ // 114: profile = capture, sensor mode = capture, iso = 1200
-				0x01040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x3424190D, 0x008F170A,
-				0x7550371D, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x1400222C, 0x40004000
-    }},
-    {set:{ // 115: profile = capture, sensor mode = capture, iso = 1600
-				0x01040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x3424190D, 0x008F170A,
-				0x7550371D, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x1400222C, 0x40004000
-    }},
-    {set:{ // 116: profile = capture, sensor mode = capture, iso = 2000
-				0x01040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x3424190D, 0x008F170A,
-				0x7550371D, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x1400222C, 0x40004000
-    }},
-    {set:{ // 117: profile = capture, sensor mode = capture, iso = 2400
-				0x01040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x3424190D, 0x008F170A,
-				0x7550371D, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x1400222C, 0x40004000
-    }},
-    {set:{ // 118: profile = capture, sensor mode = capture, iso = 2800
-				0x01040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x3424190D, 0x008F170A,
-				0x7550371D, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x1400222C, 0x40004000
-    }},
-    {set:{ // 119: profile = capture, sensor mode = capture, iso = 3200
-				0x01040023, 0x00001012, 0x00021100, 0x09021002, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x3424190D, 0x008F170A,
-				0x7550371D, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x1400222C, 0x40004000
-    }},
-    {set:{ // 120: profile = capture, sensor mode = video, iso = 100
-        0x01040013, 0x00001012, 0x00021100, 0x09000400, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x0C080402, 0x004B060A,
-        0x06040302, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x12071E0F, 0x4000400A
-    }},
-    {set:{ // 121: profile = capture, sensor mode = video, iso = 200
-        0x01040013, 0x00001012, 0x00021100, 0x09000400, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x0C080402, 0x004B060A,
-        0x06040302, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x12071E0F, 0x4000400A
-    }},
-    {set:{ // 122: profile = capture, sensor mode = video, iso = 400
-        0x01040013, 0x00001012, 0x00021100, 0x09000400, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x0C080402, 0x004B060A,
-        0x06040302, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x12071E0F, 0x4000400A
-    }},
-    {set:{ // 123: profile = capture, sensor mode = video, iso = 800
-        0x01040013, 0x00001012, 0x00021100, 0x09000400, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x0C080402, 0x004B060A,
-        0x06040302, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x12071E0F, 0x4000400A
-    }},
-    {set:{ // 124: profile = capture, sensor mode = video, iso = 1200
-        0x01040013, 0x00001012, 0x00021100, 0x09000400, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x0C080402, 0x004B060A,
-        0x06040302, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x12071E0F, 0x4000400A
-    }},
-    {set:{ // 125: profile = capture, sensor mode = video, iso = 1600
-        0x01040013, 0x00001012, 0x00021100, 0x09000400, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x0C080402, 0x004B060A,
-        0x06040302, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x12071E0F, 0x4000400A
-    }},
-    {set:{ // 126: profile = capture, sensor mode = video, iso = 2000
+    {set:{ // 126: profile = capture, sensor mode = video, iso = 2000     
         0x01040013, 0x00001012, 0x00021100, 0x09000400, 0x00000A0A, 0x00A06428, 0x08101010, 0x1F1C0000, 0x0C080402, 0x004B060A,
         0x06040302, 0x00000006, 0x14100C08, 0xB9193C78, 0x00060000, 0x00780677, 0x12071E0F, 0x4000400A
     }},
@@ -5551,139 +5490,139 @@ CCR:{
 },
 
 EE:{
-    {set:{//00: profile = preview, sensor mode = preview ISO100
-0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000050, 0x01400592, 0x014000B9, 0x0000FE00, 0x00004040,
-0x0000421B, 0x01000014, 0x00000028, 0x0000003C, 0x2C2C3636, 0x00002222
+    {set:{ // 000: profile = preview, sensor mode = preview ISO100           
+        0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00280141, 0x01040479, 0x010400B9, 0x0000FE00, 0x00003434,
+        0x0000421B, 0x01010010, 0x00010020, 0x00020030, 0x20202A2A, 0x00001616
     }},
-    {set:{//01: profile = preview, sensor mode = preview ISO200
-				0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000032, 0x01680860, 0x016800B9, 0x0000FE00, 0x00004848,
-				0x0000421B, 0x0100000C, 0x00000019, 0x00000025, 0x34343E3E, 0x00002A2A
+    {set:{ // 001: profile = preview, sensor mode = preview ISO200           
+        0x00000000, 0x001E0635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00280148, 0x00C10385, 0x00C100B9, 0x0000FE00, 0x00002626,
+        0x0000421B, 0x01010012, 0x00010024, 0x00020036, 0x12121C1C, 0x00000808
     }},
-    {set:{//02: profile = preview, sensor mode = preview ISO400
-0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x019005A3, 0x019000B9, 0x0000FE00, 0x00005050,
-0x0000421B, 0x01000014, 0x00000028, 0x0000003C, 0x3C3C4646, 0x00003232
+    {set:{ // 002: profile = preview, sensor mode = preview ISO400           
+        0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0028006B, 0x00B702BF, 0x00B700C9, 0x0000FD00, 0x00002424,
+        0x0000421B, 0x0100001A, 0x00010035, 0x00010050, 0x10101A1A, 0x00030606
     }},
-    {set:{//03: profile = preview, sensor mode = preview ISO800
-0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000006E, 0x019005C4, 0x019000CE, 0x0000FD00, 0x00005050,
-0x0000421B, 0x01000014, 0x00000028, 0x0000003C, 0x3C3C4646, 0x00003232
+    {set:{ // 003: profile = preview, sensor mode = preview ISO800           
+        0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0028006B, 0x00B702BF, 0x00B700C9, 0x0000FD00, 0x00002424,
+        0x0000421B, 0x0100001A, 0x00010035, 0x00010050, 0x10101A1A, 0x00030606
     }},
-    {set:{//04: profile = preview, sensor mode = preview ISO1200
-				0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x019A05BC, 0x019A00C6, 0x0000FD00, 0x00005252,
-				0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
+    {set:{ // 004: profile = preview, sensor mode = preview ISO1200          
+        0x00000000, 0x004B3060, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046013C, 0x012C0471, 0x012C00B9, 0x0000FE00, 0x00003C3C,
+        0x0000221B, 0x0101020F, 0x0001011E, 0x0003012D, 0x28283232, 0x00001E1E
     }},
-    {set:{//05: profile = preview, sensor mode = preview ISO1600
-				0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x019A05BC, 0x019A00C6, 0x0000FD00, 0x00005252,
-				0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
+    {set:{ // 005: profile = preview, sensor mode = preview ISO1600          
+        0x00000000, 0x004B3060, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046013C, 0x012C0471, 0x012C00B9, 0x0000FE00, 0x00003C3C,
+        0x0000221B, 0x0101020F, 0x0001011E, 0x0003012D, 0x28283232, 0x00001E1E
     }},
-    {set:{//06: profile = preview, sensor mode = preview ISO2000
-        0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046006C, 0x01C505C1, 0x01C500CB, 0x0000FD00, 0x00005A5A,
-        0x0000621B, 0x01000214, 0x00010128, 0x0001013C, 0x46465050, 0x00003C3C
+    {set:{ // 006: profile = preview, sensor mode = preview ISO2000          
+        0x00000000, 0x004B3060, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046013C, 0x012C0471, 0x012C00B9, 0x0000FE00, 0x00003C3C,
+        0x0000221B, 0x0101020F, 0x0001011E, 0x0003012D, 0x28283232, 0x00001E1E
     }},
-    {set:{//07: profile = preview, sensor mode = preview ISO2400
-        0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046006C, 0x01C505C1, 0x01C500CB, 0x0000FD00, 0x00005A5A,
-        0x0000621B, 0x01000214, 0x00010128, 0x0001013C, 0x46465050, 0x00003C3C
+    {set:{ // 007: profile = preview, sensor mode = preview ISO2400          
+        0x00000000, 0x004B3060, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046013C, 0x012C0471, 0x012C00B9, 0x0000FE00, 0x00003C3C,
+        0x0000221B, 0x0101020F, 0x0001011E, 0x0003012D, 0x28283232, 0x00001E1E
     }},
-    {set:{//08: profile = preview, sensor mode = preview ISO2800
-        0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046006A, 0x01D305BE, 0x01D300C8, 0x0000FD00, 0x00005D5D,
-        0x0000621B, 0x01000214, 0x00010128, 0x0001013C, 0x49495353, 0x00003F3F
+    {set:{ // 008: profile = preview, sensor mode = preview ISO2800          
+        0x00000000, 0x004B3060, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046013C, 0x012C0471, 0x012C00B9, 0x0000FE00, 0x00003C3C,
+        0x0000221B, 0x0101020F, 0x0001011E, 0x0003012D, 0x28283232, 0x00001E1E
     }},
-    {set:{//09: profile = preview, sensor mode = preview ISO3200
-        0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046006A, 0x01D305BE, 0x01D300C8, 0x0000FD00, 0x00005D5D,
-        0x0000621B, 0x01000214, 0x00010128, 0x0001013C, 0x49495353, 0x00003F3F
+    {set:{ // 009: profile = preview, sensor mode = preview ISO3200          
+        0x00000000, 0x004B3060, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046013C, 0x012C0471, 0x012C00B9, 0x0000FE00, 0x00003C3C,
+        0x0000221B, 0x0101020F, 0x0001011E, 0x0003012D, 0x28283232, 0x00001E1E
     }},
-    {set:{//10: profile = preview, sensor mode = capture ISO100
-0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000050, 0x01400592, 0x014000B9, 0x0000FE00, 0x00004040,
-0x0000421B, 0x01000014, 0x00000028, 0x0000003C, 0x2C2C3636, 0x00002222
+    {set:{ // 010: profile = preview, sensor mode = capture ISO100           
+        0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00280141, 0x01040479, 0x010400B9, 0x0000FE00, 0x00003434,
+        0x0000421B, 0x01010010, 0x00010020, 0x00020030, 0x20202A2A, 0x00001616
     }},
-    {set:{//11: profile = preview, sensor mode = capture ISO200
-				0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000032, 0x01680860, 0x016800B9, 0x0000FE00, 0x00004848,
-				0x0000421B, 0x0100000C, 0x00000019, 0x00000025, 0x34343E3E, 0x00002A2A
+    {set:{ // 011: profile = preview, sensor mode = capture ISO200           
+        0x00000000, 0x001E0635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0028014A, 0x01380488, 0x013800B9, 0x0000FE00, 0x00003E3E,
+        0x0000421B, 0x01010012, 0x00010025, 0x00020037, 0x2A2A3434, 0x00002020
     }},
-    {set:{//12: profile = preview, sensor mode = capture ISO400
-0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x019005A3, 0x019000B9, 0x0000FE00, 0x00005050,
-0x0000421B, 0x01000014, 0x00000028, 0x0000003C, 0x3C3C4646, 0x00003232
+    {set:{ // 012: profile = preview, sensor mode = capture ISO400           
+        0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0028006B, 0x00B702BF, 0x00B700C9, 0x0000FD00, 0x00002424,
+        0x0000421B, 0x0100001A, 0x00010035, 0x00010050, 0x10101A1A, 0x00030606
     }},
-    {set:{//13: profile = preview, sensor mode = capture ISO800
-0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000006E, 0x019005C4, 0x019000CE, 0x0000FD00, 0x00005050,
-0x0000421B, 0x01000014, 0x00000028, 0x0000003C, 0x3C3C4646, 0x00003232
+    {set:{ // 013: profile = preview, sensor mode = capture ISO800           
+        0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0028006B, 0x00B702BF, 0x00B700C9, 0x0000FD00, 0x00002424,
+        0x0000421B, 0x0100001A, 0x00010035, 0x00010050, 0x10101A1A, 0x00030606
     }},
-    {set:{//14: profile = preview, sensor mode = capture ISO1200
-				0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x019A05BC, 0x019A00C6, 0x0000FD00, 0x00005252,
-				0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
+    {set:{ // 014: profile = preview, sensor mode = capture ISO1200          
+        0x00000000, 0x004B3060, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046013C, 0x012C0471, 0x012C00B9, 0x0000FE00, 0x00003C3C,
+        0x0000221B, 0x0101020F, 0x0001011E, 0x0003012D, 0x28283232, 0x00001E1E
     }},
-    {set:{//15: profile = preview, sensor mode = capture ISO1600
-				0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x019A05BC, 0x019A00C6, 0x0000FD00, 0x00005252,
-				0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
+    {set:{ // 015: profile = preview, sensor mode = capture ISO1600          
+        0x00000000, 0x004B3060, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046013C, 0x012C0471, 0x012C00B9, 0x0000FE00, 0x00003C3C,
+        0x0000221B, 0x0101020F, 0x0001011E, 0x0003012D, 0x28283232, 0x00001E1E
     }},
-    {set:{//16: profile = preview, sensor mode = capture ISO2000
-        0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046006C, 0x01C505C1, 0x01C500CB, 0x0000FD00, 0x00005A5A,
-        0x0000621B, 0x01000214, 0x00010128, 0x0001013C, 0x46465050, 0x00003C3C
+    {set:{ // 016: profile = preview, sensor mode = capture ISO2000          
+        0x00000000, 0x004B3060, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046013C, 0x012C0471, 0x012C00B9, 0x0000FE00, 0x00003C3C,
+        0x0000221B, 0x0101020F, 0x0001011E, 0x0003012D, 0x28283232, 0x00001E1E
     }},
-    {set:{//17: profile = preview, sensor mode = capture ISO2400
-        0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046006C, 0x01C505C1, 0x01C500CB, 0x0000FD00, 0x00005A5A,
-        0x0000621B, 0x01000214, 0x00010128, 0x0001013C, 0x46465050, 0x00003C3C
+    {set:{ // 017: profile = preview, sensor mode = capture ISO2400          
+        0x00000000, 0x004B3060, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046013C, 0x012C0471, 0x012C00B9, 0x0000FE00, 0x00003C3C,
+        0x0000221B, 0x0101020F, 0x0001011E, 0x0003012D, 0x28283232, 0x00001E1E
     }},
-    {set:{//18: profile = preview, sensor mode = capture ISO2800
-        0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046006A, 0x01D305BE, 0x01D300C8, 0x0000FD00, 0x00005D5D,
-        0x0000621B, 0x01000214, 0x00010128, 0x0001013C, 0x49495353, 0x00003F3F
+    {set:{ // 018: profile = preview, sensor mode = capture ISO2800          
+        0x00000000, 0x004B3060, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046013C, 0x012C0471, 0x012C00B9, 0x0000FE00, 0x00003C3C,
+        0x0000221B, 0x0101020F, 0x0001011E, 0x0003012D, 0x28283232, 0x00001E1E
     }},
-    {set:{//19: profile = preview, sensor mode = capture ISO3200
-        0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046006A, 0x01D305BE, 0x01D300C8, 0x0000FD00, 0x00005D5D,
-        0x0000621B, 0x01000214, 0x00010128, 0x0001013C, 0x49495353, 0x00003F3F
+    {set:{ // 019: profile = preview, sensor mode = capture ISO3200          
+        0x00000000, 0x004B3060, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046013C, 0x012C0471, 0x012C00B9, 0x0000FE00, 0x00003C3C,
+        0x0000221B, 0x0101020F, 0x0001011E, 0x0003012D, 0x28283232, 0x00001E1E
     }},
-    {set:{ // 020: profile = preview, sensor mode = video, iso = 100
+    {set:{ // 020: profile = preview, sensor mode = video, iso = 100      
+        0x00000000, 0x004B3060, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046013C, 0x012C0471, 0x012C00B9, 0x0000FE00, 0x00003C3C,
+        0x0000221B, 0x0101020F, 0x0001011E, 0x0003012D, 0x28283232, 0x00001E1E
+    }},
+    {set:{ // 021: profile = preview, sensor mode = video, iso = 200      
+        0x00000000, 0x004B3060, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046013C, 0x012C0471, 0x012C00B9, 0x0000FE00, 0x00003C3C,
+        0x0000221B, 0x0101020F, 0x0001011E, 0x0003012D, 0x28283232, 0x00001E1E
+    }},
+    {set:{ // 022: profile = preview, sensor mode = video, iso = 400      
+        0x00000000, 0x004B3060, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046013C, 0x012C0471, 0x012C00B9, 0x0000FE00, 0x00003C3C,
+        0x0000221B, 0x0101020F, 0x0001011E, 0x0003012D, 0x28283232, 0x00001E1E
+    }},
+    {set:{ // 023: profile = preview, sensor mode = video, iso = 800      
+        0x00000000, 0x004B3060, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046013C, 0x012C0471, 0x012C00B9, 0x0000FE00, 0x00003C3C,
+        0x0000221B, 0x0101020F, 0x0001011E, 0x0003012D, 0x28283232, 0x00001E1E
+    }},
+    {set:{ // 024: profile = preview, sensor mode = video, iso = 1200     
+        0x00000000, 0x004B3060, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046013C, 0x012C0471, 0x012C00B9, 0x0000FE00, 0x00003C3C,
+        0x0000221B, 0x0101020F, 0x0001011E, 0x0003012D, 0x28283232, 0x00001E1E
+    }},
+    {set:{ // 025: profile = preview, sensor mode = video, iso = 1600     
+        0x00000000, 0x004B3060, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046013C, 0x012C0471, 0x012C00B9, 0x0000FE00, 0x00003C3C,
+        0x0000221B, 0x0101020F, 0x0001011E, 0x0003012D, 0x28283232, 0x00001E1E
+    }},
+    {set:{ // 026: profile = preview, sensor mode = video, iso = 2000     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 021: profile = preview, sensor mode = video, iso = 200
+    {set:{ // 027: profile = preview, sensor mode = video, iso = 2400     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 022: profile = preview, sensor mode = video, iso = 400
+    {set:{ // 028: profile = preview, sensor mode = video, iso = 2800     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 023: profile = preview, sensor mode = video, iso = 800
+    {set:{ // 029: profile = preview, sensor mode = video, iso = 3200     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 024: profile = preview, sensor mode = video, iso = 1200
+    {set:{ // 030: profile = preview, sensor mode = SlimVideo1, iso = 100 
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 025: profile = preview, sensor mode = video, iso = 1600
+    {set:{ // 031: profile = preview, sensor mode = SlimVideo1, iso = 200 
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 026: profile = preview, sensor mode = video, iso = 2000
+    {set:{ // 032: profile = preview, sensor mode = SlimVideo1, iso = 400 
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 027: profile = preview, sensor mode = video, iso = 2400
-        0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
-        0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
-    }},
-    {set:{ // 028: profile = preview, sensor mode = video, iso = 2800
-        0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
-        0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
-    }},
-    {set:{ // 029: profile = preview, sensor mode = video, iso = 3200
-        0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
-        0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
-    }},
-    {set:{ // 030: profile = preview, sensor mode = SlimVideo1, iso = 100
-        0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
-        0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
-    }},
-    {set:{ // 031: profile = preview, sensor mode = SlimVideo1, iso = 200
-        0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
-        0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
-    }},
-    {set:{ // 032: profile = preview, sensor mode = SlimVideo1, iso = 400
-        0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
-        0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
-    }},
-    {set:{ // 033: profile = preview, sensor mode = SlimVideo1, iso = 800
+    {set:{ // 033: profile = preview, sensor mode = SlimVideo1, iso = 800 
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
@@ -5711,19 +5650,19 @@ EE:{
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 040: profile = preview, sensor mode = SlimVideo2, iso = 100
+    {set:{ // 040: profile = preview, sensor mode = SlimVideo2, iso = 100 
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 041: profile = preview, sensor mode = SlimVideo2, iso = 200
+    {set:{ // 041: profile = preview, sensor mode = SlimVideo2, iso = 200 
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 042: profile = preview, sensor mode = SlimVideo2, iso = 400
+    {set:{ // 042: profile = preview, sensor mode = SlimVideo2, iso = 400 
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 043: profile = preview, sensor mode = SlimVideo2, iso = 800
+    {set:{ // 043: profile = preview, sensor mode = SlimVideo2, iso = 800 
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
@@ -5751,84 +5690,84 @@ EE:{
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 050: profile = video, sensor mode = preview, iso = 100        
+    {set:{ // 050: profile = video, sensor mode = preview, iso = 100      
         0x00000000, 0x004B0001, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000008, 0x00000030, 0x000000B9, 0x00000000, 0x00000000,
         0x0000621B, 0x01000002, 0x00000004, 0x00000006, 0x00000000, 0x00000000
     }},
-    {set:{ // 051: profile = video, sensor mode = preview, iso = 200        
+    {set:{ // 051: profile = video, sensor mode = preview, iso = 200      
         0x00000000, 0x004B0001, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000008, 0x00000030, 0x000000B9, 0x00000000, 0x00000000,
         0x0000621B, 0x01000002, 0x00000004, 0x00000006, 0x00000000, 0x00000000
     }},
-    {set:{ // 052: profile = video, sensor mode = preview, iso = 400        
+    {set:{ // 052: profile = video, sensor mode = preview, iso = 400      
         0x00000000, 0x004B0001, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000008, 0x00000030, 0x000000B9, 0x00000000, 0x00000000,
         0x0000621B, 0x01000002, 0x00000004, 0x00000006, 0x00000000, 0x00000000
     }},
-    {set:{ // 053: profile = video, sensor mode = preview, iso = 800        
+    {set:{ // 053: profile = video, sensor mode = preview, iso = 800      
         0x00000000, 0x004B0001, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000008, 0x00000030, 0x000000B9, 0x00000000, 0x00000000,
         0x0000621B, 0x01000002, 0x00000004, 0x00000006, 0x00000000, 0x00000000
     }},
-    {set:{ // 054: profile = video, sensor mode = preview, iso = 1200       
+    {set:{ // 054: profile = video, sensor mode = preview, iso = 1200     
         0x00000000, 0x004B0001, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000008, 0x00000030, 0x000000B9, 0x00000000, 0x00000000,
         0x0000621B, 0x01000002, 0x00000004, 0x00000006, 0x00000000, 0x00000000
     }},
-    {set:{ // 055: profile = video, sensor mode = preview, iso = 1600       
+    {set:{ // 055: profile = video, sensor mode = preview, iso = 1600     
         0x00000000, 0x004B0003, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000008, 0x00000030, 0x000000B9, 0x00000000, 0x00000000,
         0x0000621B, 0x01000002, 0x00000004, 0x00000006, 0x00000000, 0x00000000
     }},
-    {set:{ // 056: profile = video, sensor mode = preview, iso = 2000       
+    {set:{ // 056: profile = video, sensor mode = preview, iso = 2000     
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000008, 0x00000030, 0x000000B9, 0x00000000, 0x00000000,
         0x0000621B, 0x01000002, 0x00000004, 0x00000006, 0x00000000, 0x00000000
     }},
-    {set:{ // 057: profile = video, sensor mode = preview, iso = 2400       
+    {set:{ // 057: profile = video, sensor mode = preview, iso = 2400     
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000008, 0x00000030, 0x000000B9, 0x00000000, 0x00000000,
         0x0000621B, 0x01000002, 0x00000004, 0x00000006, 0x00000000, 0x00000000
     }},
-    {set:{ // 058: profile = video, sensor mode = preview, iso = 2800       
+    {set:{ // 058: profile = video, sensor mode = preview, iso = 2800     
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000008, 0x00000030, 0x000000B9, 0x00000000, 0x00000000,
         0x0000621B, 0x01000002, 0x00000004, 0x00000006, 0x00000000, 0x00000000
     }},
-    {set:{ // 059: profile = video, sensor mode = preview, iso = 3200       
+    {set:{ // 059: profile = video, sensor mode = preview, iso = 3200     
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000008, 0x00000030, 0x000000B9, 0x00000000, 0x00000000,
         0x0000621B, 0x01000002, 0x00000004, 0x00000006, 0x00000000, 0x00000000
     }},
-    {set:{ // 060: profile = video, sensor mode = capture, iso = 100
+    {set:{ // 060: profile = video, sensor mode = capture, iso = 100      
         0x00000000, 0x00460000, 0x00000200, 0x3E4D71A8, 0x003C0000, 0x00640061, 0x018904AF, 0x018900B9, 0x0000FE00, 0x00004E4E,
         0x0000621B, 0x01010314, 0x00010228, 0x0001013C, 0x3C3C4545, 0x00003232
     }},
-    {set:{ // 061: profile = video, sensor mode = capture, iso = 200
+    {set:{ // 061: profile = video, sensor mode = capture, iso = 200      
         0x00000000, 0x00460000, 0x00000200, 0x3E4D71A8, 0x003C0000, 0x0064005D, 0x01A404A8, 0x01A400B9, 0x0000FE00, 0x00005454,
         0x0000621B, 0x01010314, 0x00010228, 0x0001013C, 0x43434C4C, 0x00003B3B
     }},
-    {set:{ // 062: profile = video, sensor mode = capture, iso = 400
+    {set:{ // 062: profile = video, sensor mode = capture, iso = 400      
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046006C, 0x01C505C1, 0x01C500CB, 0x0000FD00, 0x00005A5A,
         0x0000621B, 0x01000214, 0x00010128, 0x0001013C, 0x46465050, 0x00003C3C
     }},
-    {set:{ // 063: profile = video, sensor mode = capture, iso = 800
+    {set:{ // 063: profile = video, sensor mode = capture, iso = 800      
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x003C0000, 0x00640054, 0x01E00699, 0x01E000B9, 0x0000FE00, 0x00006060,
         0x0000621B, 0x01010314, 0x00010228, 0x0002013C, 0x53535A5A, 0x00004C4C
     }},
-    {set:{ // 064: profile = video, sensor mode = capture, iso = 1200
+    {set:{ // 064: profile = video, sensor mode = capture, iso = 1200     
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x003C0000, 0x00640054, 0x01E00699, 0x01E000B9, 0x0000FE00, 0x00006060,
         0x0000621B, 0x01010314, 0x00010228, 0x0002013C, 0x53535A5A, 0x00004C4C
     }},
-    {set:{ // 065: profile = video, sensor mode = capture, iso = 1600
+    {set:{ // 065: profile = video, sensor mode = capture, iso = 1600     
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x00460068, 0x01E005BA, 0x01E000C4, 0x0000FD00, 0x00006060,
         0x0000621B, 0x01000214, 0x00010128, 0x0001013C, 0x4C4C5656, 0x00004242
     }},
-    {set:{ // 066: profile = video, sensor mode = capture, iso = 2000
+    {set:{ // 066: profile = video, sensor mode = capture, iso = 2000     
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x00460068, 0x01E005BA, 0x01E000C4, 0x0000FD00, 0x00006060,
         0x0000621B, 0x01000214, 0x00010128, 0x0001013C, 0x4C4C5656, 0x00004242
     }},
-    {set:{ // 067: profile = video, sensor mode = capture, iso = 2400
+    {set:{ // 067: profile = video, sensor mode = capture, iso = 2400     
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046006C, 0x01C505C1, 0x01C500CB, 0x0000FD00, 0x00005A5A,
         0x0000621B, 0x01000214, 0x00010128, 0x0001013C, 0x46465050, 0x00003C3C
     }},
-    {set:{ // 068: profile = video, sensor mode = capture, iso = 2800
+    {set:{ // 068: profile = video, sensor mode = capture, iso = 2800     
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046006C, 0x01C505C1, 0x01C500CB, 0x0000FD00, 0x00005A5A,
         0x0000621B, 0x01000214, 0x00010128, 0x0001013C, 0x46465050, 0x00003C3C
     }},
-    {set:{ // 069: profile = video, sensor mode = capture, iso = 3200
-       0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046006A, 0x01D305BE, 0x01D300C8, 0x0000FD00, 0x00005D5D,
+    {set:{ // 069: profile = video, sensor mode = capture, iso = 3200     
+        0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046006A, 0x01D305BE, 0x01D300C8, 0x0000FD00, 0x00005D5D,
         0x0000621B, 0x01000214, 0x00010128, 0x0001013C, 0x49495353, 0x00003F3F
     }},
     {set:{ // 070: profile = video, sensor mode = video, iso = 100        
@@ -5871,219 +5810,219 @@ EE:{
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000008, 0x00000030, 0x000000B9, 0x00000000, 0x00000000,
         0x0000621B, 0x01000002, 0x00000004, 0x00000006, 0x00000000, 0x00000000
     }},
-    {set:{ // 080: profile = video, sensor mode = SlimVideo1, iso = 100
-0x00000000, 0x004B0003, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x014A05A3, 0x014A00B9, 0x0000FE00, 0x00004242,
-0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x2E2E3838, 0x00002424
+    {set:{ // 080: profile = video, sensor mode = SlimVideo1, iso = 100   
+        0x00000000, 0x004B0003, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x014A05A3, 0x014A00B9, 0x0000FE00, 0x00004242,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x2E2E3838, 0x00002424
     }},
-    {set:{ // 081: profile = video, sensor mode = SlimVideo1, iso = 200
-0x00000000, 0x004B0003, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x014A05A3, 0x014A00B9, 0x0000FE00, 0x00004242,
-0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x2E2E3838, 0x00002424
+    {set:{ // 081: profile = video, sensor mode = SlimVideo1, iso = 200   
+        0x00000000, 0x004B0003, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x014A05A3, 0x014A00B9, 0x0000FE00, 0x00004242,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x2E2E3838, 0x00002424
     }},
-    {set:{ // 082: profile = video, sensor mode = SlimVideo1, iso = 400
-0x00000000, 0x004B0003, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x014A05A3, 0x014A00B9, 0x0000FE00, 0x00004242,
-0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x2E2E3838, 0x00002424
+    {set:{ // 082: profile = video, sensor mode = SlimVideo1, iso = 400   
+        0x00000000, 0x004B0003, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x014A05A3, 0x014A00B9, 0x0000FE00, 0x00004242,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x2E2E3838, 0x00002424
     }},
-    {set:{ // 083: profile = video, sensor mode = SlimVideo1, iso = 800
-0x00000000, 0x004B0003, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x014A05A3, 0x014A00B9, 0x0000FE00, 0x00004242,
-0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x2E2E3838, 0x00002424
+    {set:{ // 083: profile = video, sensor mode = SlimVideo1, iso = 800   
+        0x00000000, 0x004B0003, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x014A05A3, 0x014A00B9, 0x0000FE00, 0x00004242,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x2E2E3838, 0x00002424
     }},
-    {set:{ // 084: profile = video, sensor mode = SlimVideo1, iso = 1200
-0x00000000, 0x004B0003, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x014A05A3, 0x014A00B9, 0x0000FE00, 0x00004242,
-0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x2E2E3838, 0x00002424
+    {set:{ // 084: profile = video, sensor mode = SlimVideo1, iso = 1200  
+        0x00000000, 0x004B0003, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x014A05A3, 0x014A00B9, 0x0000FE00, 0x00004242,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x2E2E3838, 0x00002424
     }},
-    {set:{ // 085: profile = video, sensor mode = SlimVideo1, iso = 1600
-0x00000000, 0x004B0003, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x014A05A3, 0x014A00B9, 0x0000FE00, 0x00004242,
-0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x2E2E3838, 0x00002424
+    {set:{ // 085: profile = video, sensor mode = SlimVideo1, iso = 1600  
+        0x00000000, 0x004B0003, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x014A05A3, 0x014A00B9, 0x0000FE00, 0x00004242,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x2E2E3838, 0x00002424
     }},
-    {set:{ // 086: profile = video, sensor mode = SlimVideo1, iso = 2000
-0x00000000, 0x004B0001, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000078, 0x012203CC, 0x012200D6, 0x0000FC00, 0x00003A3A,
-0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x26263030, 0x00001C1C
+    {set:{ // 086: profile = video, sensor mode = SlimVideo1, iso = 2000  
+        0x00000000, 0x004B0001, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000078, 0x012203CC, 0x012200D6, 0x0000FC00, 0x00003A3A,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x26263030, 0x00001C1C
     }},
-    {set:{ // 087: profile = video, sensor mode = SlimVideo1, iso = 2400
-0x00000000, 0x004B0001, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000078, 0x012203CC, 0x012200D6, 0x0000FC00, 0x00003A3A,
-0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x26263030, 0x00001C1C
+    {set:{ // 087: profile = video, sensor mode = SlimVideo1, iso = 2400  
+        0x00000000, 0x004B0001, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000078, 0x012203CC, 0x012200D6, 0x0000FC00, 0x00003A3A,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x26263030, 0x00001C1C
     }},
-    {set:{ // 088: profile = video, sensor mode = SlimVideo1, iso = 2800
-0x00000000, 0x004B0001, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000078, 0x012203CC, 0x012200D6, 0x0000FC00, 0x00003A3A,
-0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x26263030, 0x00001C1C
+    {set:{ // 088: profile = video, sensor mode = SlimVideo1, iso = 2800  
+        0x00000000, 0x004B0001, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000078, 0x012203CC, 0x012200D6, 0x0000FC00, 0x00003A3A,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x26263030, 0x00001C1C
     }},
-    {set:{ // 089: profile = video, sensor mode = SlimVideo1, iso = 3200
-0x00000000, 0x004B0001, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000078, 0x012203CC, 0x012200D6, 0x0000FC00, 0x00003A3A,
-0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x26263030, 0x00001C1C
+    {set:{ // 089: profile = video, sensor mode = SlimVideo1, iso = 3200  
+        0x00000000, 0x004B0001, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000078, 0x012203CC, 0x012200D6, 0x0000FC00, 0x00003A3A,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x26263030, 0x00001C1C
     }},
-    {set:{ // 090: profile = video, sensor mode = SlimVideo2, iso = 100
+    {set:{ // 090: profile = video, sensor mode = SlimVideo2, iso = 100   
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 091: profile = video, sensor mode = SlimVideo2, iso = 200
+    {set:{ // 091: profile = video, sensor mode = SlimVideo2, iso = 200   
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 092: profile = video, sensor mode = SlimVideo2, iso = 400
+    {set:{ // 092: profile = video, sensor mode = SlimVideo2, iso = 400   
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 093: profile = video, sensor mode = SlimVideo2, iso = 800
+    {set:{ // 093: profile = video, sensor mode = SlimVideo2, iso = 800   
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 094: profile = video, sensor mode = SlimVideo2, iso = 1200
+    {set:{ // 094: profile = video, sensor mode = SlimVideo2, iso = 1200  
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 095: profile = video, sensor mode = SlimVideo2, iso = 1600
+    {set:{ // 095: profile = video, sensor mode = SlimVideo2, iso = 1600  
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 096: profile = video, sensor mode = SlimVideo2, iso = 2000
+    {set:{ // 096: profile = video, sensor mode = SlimVideo2, iso = 2000  
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 097: profile = video, sensor mode = SlimVideo2, iso = 2400
+    {set:{ // 097: profile = video, sensor mode = SlimVideo2, iso = 2400  
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 098: profile = video, sensor mode = SlimVideo2, iso = 2800
+    {set:{ // 098: profile = video, sensor mode = SlimVideo2, iso = 2800  
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 099: profile = video, sensor mode = SlimVideo2, iso = 3200
+    {set:{ // 099: profile = video, sensor mode = SlimVideo2, iso = 3200  
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 100: profile = capture, sensor mode = preview, iso = 100
+    {set:{ // 100: profile = capture, sensor mode = preview, iso = 100    
+        0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0028014F, 0x011A0491, 0x011A00B9, 0x0000FE00, 0x00003838,
+        0x0000421B, 0x01010013, 0x00010027, 0x0002003B, 0x24242E2E, 0x00001A1A
+    }},
+    {set:{ // 101: profile = capture, sensor mode = preview, iso = 200    
+        0x00000000, 0x001E0635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00280066, 0x00C102B7, 0x00C100C1, 0x0000FE00, 0x00002626,
+        0x0000421B, 0x01010019, 0x00010033, 0x0002004C, 0x12121C1C, 0x00000808
+    }},
+    {set:{ // 102: profile = capture, sensor mode = preview, iso = 400    
+        0x00000000, 0x00320634, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0028006B, 0x00B702BF, 0x00B700C9, 0x0000FD00, 0x00002424,
+        0x0000421B, 0x0100001A, 0x00010035, 0x00010050, 0x10101A1A, 0x00030606
+    }},
+    {set:{ // 103: profile = capture, sensor mode = preview, iso = 800    
+        0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0028006B, 0x00B702BF, 0x00B700C9, 0x0000FD00, 0x00002424,
+        0x0000421B, 0x0100001A, 0x00010035, 0x00010050, 0x10101A1A, 0x00030606
+    }},
+    {set:{ // 104: profile = capture, sensor mode = preview, iso = 1200   
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 101: profile = capture, sensor mode = preview, iso = 200
+    {set:{ // 105: profile = capture, sensor mode = preview, iso = 1600   
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 102: profile = capture, sensor mode = preview, iso = 400
+    {set:{ // 106: profile = capture, sensor mode = preview, iso = 2000   
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 103: profile = capture, sensor mode = preview, iso = 800
+    {set:{ // 107: profile = capture, sensor mode = preview, iso = 2400   
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 104: profile = capture, sensor mode = preview, iso = 1200
+    {set:{ // 108: profile = capture, sensor mode = preview, iso = 2800   
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 105: profile = capture, sensor mode = preview, iso = 1600
+    {set:{ // 109: profile = capture, sensor mode = preview, iso = 3200   
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 106: profile = capture, sensor mode = preview, iso = 2000
+    {set:{ // 110: profile = capture, sensor mode = capture, iso = 100    
+        0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0028014F, 0x011A0491, 0x011A00B9, 0x0000FE00, 0x00003838,
+        0x0000421B, 0x01010013, 0x00010027, 0x0002003B, 0x24242E2E, 0x00001A1A
+    }},
+    {set:{ // 111: profile = capture, sensor mode = capture, iso = 200    
+        0x00000000, 0x001E0635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00280056, 0x00C1029C, 0x00C100B9, 0x0000FE00, 0x00002626,
+        0x0000421B, 0x01010015, 0x0001002B, 0x00020040, 0x12121C1C, 0x00000808
+    }},
+    {set:{ // 112: profile = capture, sensor mode = capture, iso = 400    
+        0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0028006B, 0x00B702BF, 0x00B700C9, 0x0000FD00, 0x00002424,
+        0x0000421B, 0x0100001A, 0x00010035, 0x00010050, 0x10101A1A, 0x00030606
+    }},
+    {set:{ // 113: profile = capture, sensor mode = capture, iso = 800    
+        0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000006E, 0x019005C4, 0x019000CE, 0x0000FD00, 0x00005050,
+        0x0000421B, 0x01000014, 0x00000028, 0x0000003C, 0x3C3C4646, 0x00003232
+    }},
+    {set:{ // 114: profile = capture, sensor mode = capture, iso = 1200   
+        0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x019A05BC, 0x019A00C6, 0x0000FD00, 0x00005252,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
+    }},
+    {set:{ // 115: profile = capture, sensor mode = capture, iso = 1600   
+        0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x019A05BC, 0x019A00C6, 0x0000FD00, 0x00005252,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
+    }},
+    {set:{ // 116: profile = capture, sensor mode = capture, iso = 2000   
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 107: profile = capture, sensor mode = preview, iso = 2400
+    {set:{ // 117: profile = capture, sensor mode = capture, iso = 2400   
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 108: profile = capture, sensor mode = preview, iso = 2800
+    {set:{ // 118: profile = capture, sensor mode = capture, iso = 2800   
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 109: profile = capture, sensor mode = preview, iso = 3200
+    {set:{ // 119: profile = capture, sensor mode = capture, iso = 3200   
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 110: profile = capture, sensor mode = capture, iso = 100
-0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000050, 0x01400592, 0x014000B9, 0x0000FE00, 0x00004040,
-0x0000421B, 0x01000014, 0x00000028, 0x0000003C, 0x2C2C3636, 0x00002222
+    {set:{ // 120: profile = capture, sensor mode = video, iso = 100      
+        0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0028014F, 0x011A0491, 0x011A00B9, 0x0000FE00, 0x00003838,
+        0x0000421B, 0x01010013, 0x00010027, 0x0002003B, 0x24242E2E, 0x00001A1A
     }},
-    {set:{ // 111: profile = capture, sensor mode = capture, iso = 200
-				0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000032, 0x01680860, 0x016800B9, 0x0000FE00, 0x00004848,
-				0x0000421B, 0x0100000C, 0x00000019, 0x00000025, 0x34343E3E, 0x00002A2A
+    {set:{ // 121: profile = capture, sensor mode = video, iso = 200      
+        0x00000000, 0x001E0635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00280066, 0x00C102B7, 0x00C100C1, 0x0000FE00, 0x00002626,
+        0x0000421B, 0x01010019, 0x00010033, 0x0002004C, 0x12121C1C, 0x00000808
     }},
-    {set:{ // 112: profile = capture, sensor mode = capture, iso = 400
-0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x019005A3, 0x019000B9, 0x0000FE00, 0x00005050,
-0x0000421B, 0x01000014, 0x00000028, 0x0000003C, 0x3C3C4646, 0x000032322
-    }},
-    {set:{ // 113: profile = capture, sensor mode = capture, iso = 800
-0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000006E, 0x019005C4, 0x019000CE, 0x0000FD00, 0x00005050,
-0x0000421B, 0x01000014, 0x00000028, 0x0000003C, 0x3C3C4646, 0x00003232
-    }},
-    {set:{ // 114: profile = capture, sensor mode = capture, iso = 1200
-				0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x019A05BC, 0x019A00C6, 0x0000FD00, 0x00005252,
-				0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
-    }},
-    {set:{ // 115: profile = capture, sensor mode = capture, iso = 1600
-				0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x019A05BC, 0x019A00C6, 0x0000FD00, 0x00005252,
-				0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
-    }},
-    {set:{ // 116: profile = capture, sensor mode = capture, iso = 2000
+    {set:{ // 122: profile = capture, sensor mode = video, iso = 400      
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 117: profile = capture, sensor mode = capture, iso = 2400
+    {set:{ // 123: profile = capture, sensor mode = video, iso = 800      
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 118: profile = capture, sensor mode = capture, iso = 2800
+    {set:{ // 124: profile = capture, sensor mode = video, iso = 1200     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 119: profile = capture, sensor mode = capture, iso = 3200
+    {set:{ // 125: profile = capture, sensor mode = video, iso = 1600     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 120: profile = capture, sensor mode = video, iso = 100
+    {set:{ // 126: profile = capture, sensor mode = video, iso = 2000     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 121: profile = capture, sensor mode = video, iso = 200
+    {set:{ // 127: profile = capture, sensor mode = video, iso = 2400     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 122: profile = capture, sensor mode = video, iso = 400
+    {set:{ // 128: profile = capture, sensor mode = video, iso = 2800     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 123: profile = capture, sensor mode = video, iso = 800
+    {set:{ // 129: profile = capture, sensor mode = video, iso = 3200     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 124: profile = capture, sensor mode = video, iso = 1200
+    {set:{ // 130: profile = capture, sensor mode = SlimVideo1, iso = 100 
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 125: profile = capture, sensor mode = video, iso = 1600
+    {set:{ // 131: profile = capture, sensor mode = SlimVideo1, iso = 200 
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 126: profile = capture, sensor mode = video, iso = 2000
+    {set:{ // 132: profile = capture, sensor mode = SlimVideo1, iso = 400 
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 127: profile = capture, sensor mode = video, iso = 2400
-        0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
-        0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
-    }},
-    {set:{ // 128: profile = capture, sensor mode = video, iso = 2800
-        0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
-        0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
-    }},
-    {set:{ // 129: profile = capture, sensor mode = video, iso = 3200
-        0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
-        0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
-    }},
-    {set:{ // 130: profile = capture, sensor mode = SlimVideo1, iso = 100
-        0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
-        0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
-    }},
-    {set:{ // 131: profile = capture, sensor mode = SlimVideo1, iso = 200
-        0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
-        0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
-    }},
-    {set:{ // 132: profile = capture, sensor mode = SlimVideo1, iso = 400
-        0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
-        0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
-    }},
-    {set:{ // 133: profile = capture, sensor mode = SlimVideo1, iso = 800
+    {set:{ // 133: profile = capture, sensor mode = SlimVideo1, iso = 800 
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
@@ -6111,19 +6050,19 @@ EE:{
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 140: profile = capture, sensor mode = SlimVideo2, iso = 100
+    {set:{ // 140: profile = capture, sensor mode = SlimVideo2, iso = 100 
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 141: profile = capture, sensor mode = SlimVideo2, iso = 200
+    {set:{ // 141: profile = capture, sensor mode = SlimVideo2, iso = 200 
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 142: profile = capture, sensor mode = SlimVideo2, iso = 400
+    {set:{ // 142: profile = capture, sensor mode = SlimVideo2, iso = 400 
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 143: profile = capture, sensor mode = SlimVideo2, iso = 800
+    {set:{ // 143: profile = capture, sensor mode = SlimVideo2, iso = 800 
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
@@ -6151,883 +6090,883 @@ EE:{
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 150: profile = N3D preview, iso = 100
+    {set:{ // 150: profile = N3D preview, iso = 100                       
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 151: profile = N3D preview, iso = 200
+    {set:{ // 151: profile = N3D preview, iso = 200                       
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 152: profile = N3D preview, iso = 400
+    {set:{ // 152: profile = N3D preview, iso = 400                       
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 153: profile = N3D preview, iso = 800
+    {set:{ // 153: profile = N3D preview, iso = 800                       
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 154: profile = N3D preview, iso = 1200
+    {set:{ // 154: profile = N3D preview, iso = 1200                      
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 155: profile = N3D preview, iso = 1600
+    {set:{ // 155: profile = N3D preview, iso = 1600                      
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 156: profile = N3D preview, iso = 2000
+    {set:{ // 156: profile = N3D preview, iso = 2000                      
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 157: profile = N3D preview, iso = 2400
+    {set:{ // 157: profile = N3D preview, iso = 2400                      
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 158: profile = N3D preview, iso = 2800
+    {set:{ // 158: profile = N3D preview, iso = 2800                      
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 159: profile = N3D preview, iso = 3200
+    {set:{ // 159: profile = N3D preview, iso = 3200                      
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 160: profile = N3D video, iso = 100
+    {set:{ // 160: profile = N3D video, iso = 100                         
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 161: profile = N3D video, iso = 200
+    {set:{ // 161: profile = N3D video, iso = 200                         
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 162: profile = N3D video, iso = 400
+    {set:{ // 162: profile = N3D video, iso = 400                         
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 163: profile = N3D video, iso = 800
+    {set:{ // 163: profile = N3D video, iso = 800                         
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 164: profile = N3D video, iso = 1200
+    {set:{ // 164: profile = N3D video, iso = 1200                        
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 165: profile = N3D video, iso = 1600
+    {set:{ // 165: profile = N3D video, iso = 1600                        
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 166: profile = N3D video, iso = 2000
+    {set:{ // 166: profile = N3D video, iso = 2000                        
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 167: profile = N3D video, iso = 2400
+    {set:{ // 167: profile = N3D video, iso = 2400                        
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 168: profile = N3D video, iso = 2800
+    {set:{ // 168: profile = N3D video, iso = 2800                        
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 169: profile = N3D video, iso = 3200
+    {set:{ // 169: profile = N3D video, iso = 3200                        
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 170: profile = N3D capture, iso = 100
+    {set:{ // 170: profile = N3D capture, iso = 100                       
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 171: profile = N3D capture, iso = 200
+    {set:{ // 171: profile = N3D capture, iso = 200                       
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 172: profile = N3D capture, iso = 400
+    {set:{ // 172: profile = N3D capture, iso = 400                       
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 173: profile = N3D capture, iso = 800
+    {set:{ // 173: profile = N3D capture, iso = 800                       
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 174: profile = N3D capture, iso = 1200
+    {set:{ // 174: profile = N3D capture, iso = 1200                      
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 175: profile = N3D capture, iso = 1600
+    {set:{ // 175: profile = N3D capture, iso = 1600                      
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 176: profile = N3D capture, iso = 2000
+    {set:{ // 176: profile = N3D capture, iso = 2000                      
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 177: profile = N3D capture, iso = 2400
+    {set:{ // 177: profile = N3D capture, iso = 2400                      
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 178: profile = N3D capture, iso = 2800
+    {set:{ // 178: profile = N3D capture, iso = 2800                      
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 179: profile = N3D capture, iso = 3200
+    {set:{ // 179: profile = N3D capture, iso = 3200                      
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 180: profile = MFB postproc mixing, iso = 100
+    {set:{ // 180: profile = MFB postproc mixing, iso = 100               
         0xA0000000, 0x00400633, 0x00000426, 0x35CE7C78, 0x00140123, 0x0266183C, 0x0133F864, 0x0029FEDC, 0x0000FF00, 0x0000FFFF,
-        0x00000643, 0x01180123, 0x00180123, 0x00180123, 0xFFFFFFFF, 0x0000FFFF,
+        0x00000643, 0x01180123, 0x00180123, 0x00180123, 0xFFFFFFFF, 0x0000FFFF
     }},
-    {set:{ // 181: profile = MFB postproc mixing, iso = 200
+    {set:{ // 181: profile = MFB postproc mixing, iso = 200               
         0xA0000000, 0x00400633, 0x00000426, 0x35CE7C78, 0x00140123, 0x0266183C, 0x0133F864, 0x0029FEDC, 0x0000FF00, 0x0000FFFF,
-        0x00000643, 0x01180123, 0x00180123, 0x00180123, 0xFFFFFFFF, 0x0000FFFF,
+        0x00000643, 0x01180123, 0x00180123, 0x00180123, 0xFFFFFFFF, 0x0000FFFF
     }},
-    {set:{ // 182: profile = MFB postproc mixing, iso = 400
-0x00000000, 0x00200635, 0x00000208, 0x3E4D71A8, 0x003C0000, 0x00640059, 0x01C100A1, 0x01C100B9, 0x00000000, 0x00005959,
-0x00004443, 0x01010314, 0x00010228, 0x0001013C, 0x4A4A5252, 0x00004242,
+    {set:{ // 182: profile = MFB postproc mixing, iso = 400               
+        0x00000000, 0x00200635, 0x00000208, 0x3E4D71A8, 0x003C0000, 0x00640059, 0x01C100A1, 0x01C100B9, 0x00000000, 0x00005959,
+        0x00004443, 0x01010314, 0x00010228, 0x0001013C, 0x4A4A5252, 0x00004242
     }},
-    {set:{ // 183: profile = MFB postproc mixing, iso = 800
-0x00000000, 0x00200639, 0x00000208, 0x3E4D71A8, 0x00B40000, 0x00DC0053, 0x02630097, 0x026300B9, 0x00000000, 0x00007A7A,
-0x00004443, 0x01010914, 0x00010429, 0x0002033E, 0x66667070, 0x00005C5C,
+    {set:{ // 183: profile = MFB postproc mixing, iso = 800               
+        0x00000000, 0x00200639, 0x00000208, 0x3E4D71A8, 0x00B40000, 0x00DC0053, 0x02630097, 0x026300B9, 0x00000000, 0x00007A7A,
+        0x00004443, 0x01010914, 0x00010429, 0x0002033E, 0x66667070, 0x00005C5C
     }},
-    {set:{ // 184: profile = MFB postproc mixing, iso = 1200
-0x00000000, 0x00200624, 0x00000208, 0x3E4D71A8, 0x003C0000, 0x0064005B, 0x016500A5, 0x016500B9, 0x00000000, 0x00004747,
-0x00004443, 0x01010314, 0x00010228, 0x0001013C, 0x33333D3D, 0x00002929,
+    {set:{ // 184: profile = MFB postproc mixing, iso = 1200              
+        0x00000000, 0x00200624, 0x00000208, 0x3E4D71A8, 0x003C0000, 0x0064005B, 0x016500A5, 0x016500B9, 0x00000000, 0x00004747,
+        0x00004443, 0x01010314, 0x00010228, 0x0001013C, 0x33333D3D, 0x00002929
     }},
-    {set:{ // 185: profile = MFB postproc mixing, iso = 1600
-0x00000000, 0x00200624, 0x00000208, 0x3E4D71A8, 0x003C0000, 0x0064005B, 0x016500A5, 0x016500B9, 0x00000000, 0x00004747,
-0x00004443, 0x01010314, 0x00010228, 0x0001013C, 0x33333D3D, 0x00002929,
+    {set:{ // 185: profile = MFB postproc mixing, iso = 1600              
+        0x00000000, 0x00200624, 0x00000208, 0x3E4D71A8, 0x003C0000, 0x0064005B, 0x016500A5, 0x016500B9, 0x00000000, 0x00004747,
+        0x00004443, 0x01010314, 0x00010228, 0x0001013C, 0x33333D3D, 0x00002929
     }},
-    {set:{ // 186: profile = MFB postproc mixing, iso = 2000
-0x00000000, 0x00200624, 0x00000208, 0x3E4D71A8, 0x003C0000, 0x0064005B, 0x016500A5, 0x016500B9, 0x00000000, 0x00004747,
-0x00004443, 0x01010314, 0x00010228, 0x0001013C, 0x33333D3D, 0x00002929,
+    {set:{ // 186: profile = MFB postproc mixing, iso = 2000              
+        0x00000000, 0x00200624, 0x00000208, 0x3E4D71A8, 0x003C0000, 0x0064005B, 0x016500A5, 0x016500B9, 0x00000000, 0x00004747,
+        0x00004443, 0x01010314, 0x00010228, 0x0001013C, 0x33333D3D, 0x00002929
     }},
-    {set:{ // 187: profile = MFB postproc mixing, iso = 2400
-0x00000000, 0x00200624, 0x00000208, 0x3E4D71A8, 0x003C0000, 0x0064005B, 0x016500A5, 0x016500B9, 0x00000000, 0x00004747,
-0x00004443, 0x01010314, 0x00010228, 0x0001013C, 0x33333D3D, 0x00002929,
+    {set:{ // 187: profile = MFB postproc mixing, iso = 2400              
+        0x00000000, 0x00200624, 0x00000208, 0x3E4D71A8, 0x003C0000, 0x0064005B, 0x016500A5, 0x016500B9, 0x00000000, 0x00004747,
+        0x00004443, 0x01010314, 0x00010228, 0x0001013C, 0x33333D3D, 0x00002929
     }},
-    {set:{ // 188: profile = MFB postproc mixing, iso = 2800
-0x00000000, 0x00200624, 0x00000208, 0x3E4D71A8, 0x003C0000, 0x0064005B, 0x016500A5, 0x016500B9, 0x00000000, 0x00004747,
-0x00004443, 0x01010314, 0x00010228, 0x0001013C, 0x33333D3D, 0x00002929,
+    {set:{ // 188: profile = MFB postproc mixing, iso = 2800              
+        0x00000000, 0x00200624, 0x00000208, 0x3E4D71A8, 0x003C0000, 0x0064005B, 0x016500A5, 0x016500B9, 0x00000000, 0x00004747,
+        0x00004443, 0x01010314, 0x00010228, 0x0001013C, 0x33333D3D, 0x00002929
     }},
-    {set:{ // 189: profile = MFB postproc mixing, iso = 3200
-0x00000000, 0x00200624, 0x00000208, 0x3E4D71A8, 0x003C0000, 0x0064005B, 0x016500A5, 0x016500B9, 0x00000000, 0x00004747,
-0x00004443, 0x01010314, 0x00010228, 0x0001013C, 0x33333D3D, 0x00002929,
+    {set:{ // 189: profile = MFB postproc mixing, iso = 3200              
+        0x00000000, 0x00200624, 0x00000208, 0x3E4D71A8, 0x003C0000, 0x0064005B, 0x016500A5, 0x016500B9, 0x00000000, 0x00004747,
+        0x00004443, 0x01010314, 0x00010228, 0x0001013C, 0x33333D3D, 0x00002929
     }},
-    {set:{ // 190: profile = MFB capture EE Off, iso = 100
+    {set:{ // 190: profile = MFB capture EE Off, iso = 100                
         0xA0000000, 0x00400633, 0x00000426, 0x35CE7C78, 0x00140123, 0x0266183C, 0x0133F864, 0x0029FEDC, 0x0000FF00, 0x0000FFFF,
-        0x00000643, 0x01180123, 0x00180123, 0x00180123, 0xFFFFFFFF, 0x0000FFFF,
+        0x00000643, 0x01180123, 0x00180123, 0x00180123, 0xFFFFFFFF, 0x0000FFFF
     }},
-    {set:{ // 191: profile = MFB capture EE Off, iso = 200
+    {set:{ // 191: profile = MFB capture EE Off, iso = 200                
         0xA0000000, 0x00400633, 0x00000426, 0x35CE7C78, 0x00140123, 0x0266183C, 0x0133F864, 0x0029FEDC, 0x0000FF00, 0x0000FFFF,
-        0x00000643, 0x01180123, 0x00180123, 0x00180123, 0xFFFFFFFF, 0x0000FFFF,
+        0x00000643, 0x01180123, 0x00180123, 0x00180123, 0xFFFFFFFF, 0x0000FFFF
     }},
-    {set:{ // 192: profile = MFB capture EE Off, iso = 400
-0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x000000A3, 0x000000B9, 0x00000000, 0x00005050,
-0x0000421B, 0x01000014, 0x00000028, 0x0000003C, 0x3C3C4646, 0x00002322,
+    {set:{ // 192: profile = MFB capture EE Off, iso = 400                
+        0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x000000A3, 0x000000B9, 0x00000000, 0x00005050,
+        0x0000421B, 0x01000014, 0x00000028, 0x0000003C, 0x3C3C4646, 0x00002322
     }},
-    {set:{ // 193: profile = MFB capture EE Off, iso = 800
-0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000006E, 0x000000C4, 0x000000CE, 0x0000FD00, 0x00005050,
-0x0000421B, 0x01000014, 0x00000028, 0x0000003C, 0x3C3C4646, 0x00003232,
+    {set:{ // 193: profile = MFB capture EE Off, iso = 800                
+        0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000006E, 0x000000C4, 0x000000CE, 0x0000FD00, 0x00005050,
+        0x0000421B, 0x01000014, 0x00000028, 0x0000003C, 0x3C3C4646, 0x00003232
     }},
-    {set:{ // 194: profile = MFB capture EE Off, iso = 1200
-0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x000000BC, 0x000000C6, 0x0000FD00, 0x00005252,
-0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434,
+    {set:{ // 194: profile = MFB capture EE Off, iso = 1200               
+        0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x000000BC, 0x000000C6, 0x0000FD00, 0x00005252,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
     }},
-    {set:{ // 195: profile = MFB capture EE Off, iso = 1600
-0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x000000BC, 0x000000C6, 0x0000FD00, 0x00005252,
-0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434,
+    {set:{ // 195: profile = MFB capture EE Off, iso = 1600               
+        0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x000000BC, 0x000000C6, 0x0000FD00, 0x00005252,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
     }},
-    {set:{ // 196: profile = MFB capture EE Off, iso = 2000
-0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x000000BC, 0x000000C6, 0x0000FD00, 0x00005252,
-0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434,
+    {set:{ // 196: profile = MFB capture EE Off, iso = 2000               
+        0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x000000BC, 0x000000C6, 0x0000FD00, 0x00005252,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
     }},
-    {set:{ // 197: profile = MFB capture EE Off, iso = 2400
-0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x000000BC, 0x000000C6, 0x0000FD00, 0x00005252,
-0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434,
+    {set:{ // 197: profile = MFB capture EE Off, iso = 2400               
+        0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x000000BC, 0x000000C6, 0x0000FD00, 0x00005252,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
     }},
-    {set:{ // 198: profile = MFB capture EE Off, iso = 2800
-0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x000000BC, 0x000000C6, 0x0000FD00, 0x00005252,
-0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434,
+    {set:{ // 198: profile = MFB capture EE Off, iso = 2800               
+        0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x000000BC, 0x000000C6, 0x0000FD00, 0x00005252,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
     }},
-    {set:{ // 199: profile = MFB capture EE Off, iso = 3200
-0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x000000BC, 0x000000C6, 0x0000FD00, 0x00005252,
-0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434,
+    {set:{ // 199: profile = MFB capture EE Off, iso = 3200               
+        0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x000000BC, 0x000000C6, 0x0000FD00, 0x00005252,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
     }},
-    {set:{ // 200: profile = IHDR preview, iso = 100
+    {set:{ // 200: profile = IHDR preview, iso = 100                      
         0x00000000, 0x0020063F, 0x00000208, 0x3E4D71A8, 0x00780000, 0x00A00059, 0x022C06A1, 0x022C00B9, 0x0000FE00, 0x00006F6F,
         0x00000443, 0x00010614, 0x00010328, 0x0001023C, 0x60606868, 0x00005858
     }},
-    {set:{ // 201: profile = IHDR preview, iso = 200
+    {set:{ // 201: profile = IHDR preview, iso = 200                      
         0x00000000, 0x0020063F, 0x00000208, 0x3E4D71A8, 0x00780000, 0x00A00064, 0x01EB04B4, 0x01EB00BE, 0x0000FE00, 0x00006262,
         0x00000443, 0x00010614, 0x00010328, 0x0001023C, 0x4F4F5959, 0x00004545
     }},
-    {set:{ // 202: profile = IHDR preview, iso = 400
+    {set:{ // 202: profile = IHDR preview, iso = 400                      
         0x00000000, 0x0020063F, 0x00000208, 0x3E4D71A8, 0x00000000, 0x0028006A, 0x00C802BE, 0x00C800C8, 0x0000FD00, 0x00002828,
         0x00000443, 0x00000014, 0x00010028, 0x0001003C, 0x12121D1D, 0x00000707
     }},
-    {set:{ // 203: profile = IHDR preview, iso = 800
+    {set:{ // 203: profile = IHDR preview, iso = 800                      
         0x00000000, 0x0020063F, 0x00000208, 0x3E4D71A8, 0x00000000, 0x00280086, 0x006301CC, 0x006300D6, 0x0000FE00, 0x00001313,
         0x00000443, 0x00000014, 0x00000028, 0x0001003C, 0x00000303, 0x00000000
     }},
-    {set:{ // 204: profile = IHDR preview, iso = 1200
+    {set:{ // 204: profile = IHDR preview, iso = 1200                     
         0x00000000, 0x0020063F, 0x00000208, 0x3E4D71A8, 0x00000000, 0x00280096, 0x002800CC, 0x002800D6, 0x0000FF00, 0x00000808,
         0x00000443, 0x00000014, 0x00000028, 0x0000003C, 0x00000000, 0x00000000
     }},
-    {set:{ // 205: profile = IHDR preview, iso = 1600
+    {set:{ // 205: profile = IHDR preview, iso = 1600                     
         0x00000000, 0x0020063F, 0x00000208, 0x3E4D71A8, 0x00000000, 0x00280096, 0x002800CC, 0x002800D6, 0x0000FF00, 0x00000808,
         0x00000443, 0x00000014, 0x00000028, 0x0000003C, 0x00000000, 0x00000000
     }},
-    {set:{ // 206: profile = IHDR preview, iso = 2000
+    {set:{ // 206: profile = IHDR preview, iso = 2000                     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x019A05BC, 0x019A00C6, 0x0000FD00, 0x00005252,
         0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
     }},
-    {set:{ // 207: profile = IHDR preview, iso = 2400
+    {set:{ // 207: profile = IHDR preview, iso = 2400                     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x019A05BC, 0x019A00C6, 0x0000FD00, 0x00005252,
         0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
     }},
-    {set:{ // 208: profile = IHDR preview, iso = 2800
+    {set:{ // 208: profile = IHDR preview, iso = 2800                     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x019A05BC, 0x019A00C6, 0x0000FD00, 0x00005252,
         0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
     }},
-    {set:{ // 209: profile = IHDR preview, iso = 3200
+    {set:{ // 209: profile = IHDR preview, iso = 3200                     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x019A05BC, 0x019A00C6, 0x0000FD00, 0x00005252,
         0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
     }},
-    {set:{ // 210: profile = IHDR video, iso = 100
+    {set:{ // 210: profile = IHDR video, iso = 100                        
         0x00000000, 0x0020063F, 0x00000208, 0x3E4D71A8, 0x00780000, 0x00A00059, 0x022C06A1, 0x022C00B9, 0x0000FE00, 0x00006F6F,
         0x00000443, 0x00010614, 0x00010328, 0x0001023C, 0x60606868, 0x00005858
     }},
-    {set:{ // 211: profile = IHDR video, iso = 200
+    {set:{ // 211: profile = IHDR video, iso = 200                        
         0x00000000, 0x0020063F, 0x00000208, 0x3E4D71A8, 0x00780000, 0x00A00064, 0x01EB04B4, 0x01EB00BE, 0x0000FE00, 0x00006262,
         0x00000443, 0x00010614, 0x00010328, 0x0001023C, 0x4F4F5959, 0x00004545
     }},
-    {set:{ // 212: profile = IHDR video, iso = 400
+    {set:{ // 212: profile = IHDR video, iso = 400                        
         0x00000000, 0x0020063F, 0x00000208, 0x3E4D71A8, 0x00000000, 0x0028006A, 0x00C802BE, 0x00C800C8, 0x0000FD00, 0x00002828,
         0x00000443, 0x00000014, 0x00010028, 0x0001003C, 0x12121D1D, 0x00000707
     }},
-    {set:{ // 213: profile = IHDR video, iso = 800
+    {set:{ // 213: profile = IHDR video, iso = 800                        
         0x00000000, 0x0020063F, 0x00000208, 0x3E4D71A8, 0x00000000, 0x00280086, 0x006301CC, 0x006300D6, 0x0000FE00, 0x00001313,
         0x00000443, 0x00000014, 0x00000028, 0x0001003C, 0x00000303, 0x00000000
     }},
-    {set:{ // 214: profile = IHDR video, iso = 1200
+    {set:{ // 214: profile = IHDR video, iso = 1200                       
         0x00000000, 0x0020063F, 0x00000208, 0x3E4D71A8, 0x00000000, 0x00280096, 0x002800CC, 0x002800D6, 0x0000FF00, 0x00000808,
         0x00000443, 0x00000014, 0x00000028, 0x0000003C, 0x00000000, 0x00000000
     }},
-    {set:{ // 215: profile = IHDR video, iso = 1600
+    {set:{ // 215: profile = IHDR video, iso = 1600                       
         0x00000000, 0x0020063F, 0x00000208, 0x3E4D71A8, 0x00000000, 0x00280096, 0x002800CC, 0x002800D6, 0x0000FF00, 0x00000808,
         0x00000443, 0x00000014, 0x00000028, 0x0000003C, 0x00000000, 0x00000000
     }},
-    {set:{ // 216: profile = IHDR video, iso = 2000
+    {set:{ // 216: profile = IHDR video, iso = 2000                       
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x019A05BC, 0x019A00C6, 0x0000FD00, 0x00005252,
         0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
     }},
-    {set:{ // 217: profile = IHDR video, iso = 2400
+    {set:{ // 217: profile = IHDR video, iso = 2400                       
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x019A05BC, 0x019A00C6, 0x0000FD00, 0x00005252,
         0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
     }},
-    {set:{ // 218: profile = IHDR video, iso = 2800
+    {set:{ // 218: profile = IHDR video, iso = 2800                       
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x019A05BC, 0x019A00C6, 0x0000FD00, 0x00005252,
         0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
     }},
-    {set:{ // 219: profile = IHDR video, iso = 3200
+    {set:{ // 219: profile = IHDR video, iso = 3200                       
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x019A05BC, 0x019A00C6, 0x0000FD00, 0x00005252,
         0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
     }},
-    {set:{//220: profile = preview, sensor mode = Custom1 ISO100
-0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000050, 0x01400592, 0x014000B9, 0x0000FE00, 0x00004040,
-0x0000421B, 0x01000014, 0x00000028, 0x0000003C, 0x2C2C3636, 0x00002222
+    {set:{ // 220: profile = preview, sensor mode = custom1, iso = 100     
+        0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000050, 0x01400592, 0x014000B9, 0x0000FE00, 0x00004040,
+        0x0000421B, 0x01000014, 0x00000028, 0x0000003C, 0x2C2C3636, 0x00002222
     }},
-    {set:{//221: profile = preview, sensor mode = Custom1 ISO200
-				0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000032, 0x01680860, 0x016800B9, 0x0000FE00, 0x00004848,
-				0x0000421B, 0x0100000C, 0x00000019, 0x00000025, 0x34343E3E, 0x00002A2A
+    {set:{ // 221: profile = preview, sensor mode = custom1, iso = 200     
+        0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000032, 0x01680860, 0x016800B9, 0x0000FE00, 0x00004848,
+        0x0000421B, 0x0100000C, 0x00000019, 0x00000025, 0x34343E3E, 0x00002A2A
     }},
-    {set:{//222: profile = preview, sensor mode = Custom1 ISO400
-0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x019005A3, 0x019000B9, 0x0000FE00, 0x00005050,
-0x0000421B, 0x01000014, 0x00000028, 0x0000003C, 0x3C3C4646, 0x00003232
+    {set:{ // 222: profile = preview, sensor mode = custom1, iso = 400     
+        0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x019005A3, 0x019000B9, 0x0000FE00, 0x00005050,
+        0x0000421B, 0x01000014, 0x00000028, 0x0000003C, 0x3C3C4646, 0x00003232
     }},
-    {set:{//223: profile = preview, sensor mode = Custom1 ISO800
-0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000006E, 0x019005C4, 0x019000CE, 0x0000FD00, 0x00005050,
-0x0000421B, 0x01000014, 0x00000028, 0x0000003C, 0x3C3C4646, 0x00003232
+    {set:{ // 223: profile = preview, sensor mode = custom1, iso = 800     
+        0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000006E, 0x019005C4, 0x019000CE, 0x0000FD00, 0x00005050,
+        0x0000421B, 0x01000014, 0x00000028, 0x0000003C, 0x3C3C4646, 0x00003232
     }},
-    {set:{//224: profile = preview, sensor mode = Custom1 ISO1200
-				0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x019A05BC, 0x019A00C6, 0x0000FD00, 0x00005252,
-				0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
+    {set:{ // 224: profile = preview, sensor mode = custom1, iso = 1200    
+        0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x019A05BC, 0x019A00C6, 0x0000FD00, 0x00005252,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
     }},
-    {set:{//225: profile = preview, sensor mode = Custom1 ISO1600
-				0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x019A05BC, 0x019A00C6, 0x0000FD00, 0x00005252,
-				0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
+    {set:{ // 225: profile = preview, sensor mode = custom1, iso = 1600    
+        0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x019A05BC, 0x019A00C6, 0x0000FD00, 0x00005252,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
     }},
-    {set:{//226: profile = preview, sensor mode = Custom1 ISO2000
+    {set:{ // 226: profile = preview, sensor mode = custom1, iso = 2000    
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046006C, 0x01C505C1, 0x01C500CB, 0x0000FD00, 0x00005A5A,
         0x0000621B, 0x01000214, 0x00010128, 0x0001013C, 0x46465050, 0x00003C3C
     }},
-    {set:{//227: profile = preview, sensor mode = Custom1 ISO2400
+    {set:{ // 227: profile = preview, sensor mode = custom1, iso = 2400    
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046006C, 0x01C505C1, 0x01C500CB, 0x0000FD00, 0x00005A5A,
         0x0000621B, 0x01000214, 0x00010128, 0x0001013C, 0x46465050, 0x00003C3C
     }},
-    {set:{//228: profile = preview, sensor mode = Custom1 ISO2800
+    {set:{ // 228: profile = preview, sensor mode = custom1, iso = 2800    
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046006A, 0x01D305BE, 0x01D300C8, 0x0000FD00, 0x00005D5D,
         0x0000621B, 0x01000214, 0x00010128, 0x0001013C, 0x49495353, 0x00003F3F
     }},
-    {set:{//229: profile = preview, sensor mode = Custom1 ISO3200
+    {set:{ // 229: profile = preview, sensor mode = custom1, iso = 3200    
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046006A, 0x01D305BE, 0x01D300C8, 0x0000FD00, 0x00005D5D,
         0x0000621B, 0x01000214, 0x00010128, 0x0001013C, 0x49495353, 0x00003F3F
     }},
-    {set:{//230: profile = preview, sensor mode = Custom2 ISO100
-0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000050, 0x01400592, 0x014000B9, 0x0000FE00, 0x00004040,
-0x0000421B, 0x01000014, 0x00000028, 0x0000003C, 0x2C2C3636, 0x00002222
+    {set:{ // 230: profile = preview, sensor mode = custom2, iso = 100     
+        0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000050, 0x01400592, 0x014000B9, 0x0000FE00, 0x00004040,
+        0x0000421B, 0x01000014, 0x00000028, 0x0000003C, 0x2C2C3636, 0x00002222
     }},
-    {set:{//231: profile = preview, sensor mode = Custom2 ISO200
-				0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000032, 0x01680860, 0x016800B9, 0x0000FE00, 0x00004848,
-				0x0000421B, 0x0100000C, 0x00000019, 0x00000025, 0x34343E3E, 0x00002A2A
+    {set:{ // 231: profile = preview, sensor mode = custom2, iso = 200     
+        0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000032, 0x01680860, 0x016800B9, 0x0000FE00, 0x00004848,
+        0x0000421B, 0x0100000C, 0x00000019, 0x00000025, 0x34343E3E, 0x00002A2A
     }},
-    {set:{//232: profile = preview, sensor mode = Custom2 ISO400
-0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x019005A3, 0x019000B9, 0x0000FE00, 0x00005050,
-0x0000421B, 0x01000014, 0x00000028, 0x0000003C, 0x3C3C4646, 0x00003232
+    {set:{ // 232: profile = preview, sensor mode = custom2, iso = 400     
+        0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x019005A3, 0x019000B9, 0x0000FE00, 0x00005050,
+        0x0000421B, 0x01000014, 0x00000028, 0x0000003C, 0x3C3C4646, 0x00003232
     }},
-    {set:{//233: profile = preview, sensor mode = Custom2 ISO800
-0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000006E, 0x019005C4, 0x019000CE, 0x0000FD00, 0x00005050,
-0x0000421B, 0x01000014, 0x00000028, 0x0000003C, 0x3C3C4646, 0x00003232
+    {set:{ // 233: profile = preview, sensor mode = custom2, iso = 800     
+        0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000006E, 0x019005C4, 0x019000CE, 0x0000FD00, 0x00005050,
+        0x0000421B, 0x01000014, 0x00000028, 0x0000003C, 0x3C3C4646, 0x00003232
     }},
-    {set:{//234: profile = preview, sensor mode = Custom2 ISO1200
-				0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x019A05BC, 0x019A00C6, 0x0000FD00, 0x00005252,
-				0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
+    {set:{ // 234: profile = preview, sensor mode = custom2, iso = 1200    
+        0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x019A05BC, 0x019A00C6, 0x0000FD00, 0x00005252,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
     }},
-    {set:{//235: profile = preview, sensor mode = Custom2 ISO1600
-				0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x019A05BC, 0x019A00C6, 0x0000FD00, 0x00005252,
-				0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
+    {set:{ // 235: profile = preview, sensor mode = custom2, iso = 1600    
+        0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x019A05BC, 0x019A00C6, 0x0000FD00, 0x00005252,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
     }},
-    {set:{//236: profile = preview, sensor mode = Custom2 ISO2000
+    {set:{ // 236: profile = preview, sensor mode = custom2, iso = 2000    
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046006C, 0x01C505C1, 0x01C500CB, 0x0000FD00, 0x00005A5A,
         0x0000621B, 0x01000214, 0x00010128, 0x0001013C, 0x46465050, 0x00003C3C
     }},
-    {set:{//237: profile = preview, sensor mode = Custom2 ISO2400
+    {set:{ // 237: profile = preview, sensor mode = custom2, iso = 2400    
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046006C, 0x01C505C1, 0x01C500CB, 0x0000FD00, 0x00005A5A,
         0x0000621B, 0x01000214, 0x00010128, 0x0001013C, 0x46465050, 0x00003C3C
     }},
-    {set:{//238: profile = preview, sensor mode = Custom2 ISO2800
+    {set:{ // 238: profile = preview, sensor mode = custom2, iso = 2800    
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046006A, 0x01D305BE, 0x01D300C8, 0x0000FD00, 0x00005D5D,
         0x0000621B, 0x01000214, 0x00010128, 0x0001013C, 0x49495353, 0x00003F3F
     }},
-    {set:{//239: profile = preview, sensor mode = Custom2 ISO3200
+    {set:{ // 239: profile = preview, sensor mode = custom2, iso = 3200    
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046006A, 0x01D305BE, 0x01D300C8, 0x0000FD00, 0x00005D5D,
         0x0000621B, 0x01000214, 0x00010128, 0x0001013C, 0x49495353, 0x00003F3F
     }},
-    {set:{ // 240: profile = preview, sensor mode = Custom3, iso = 100
+    {set:{ // 240: profile = preview, sensor mode = custom3, iso = 100     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 241: profile = preview, sensor mode = Custom3, iso = 200
+    {set:{ // 241: profile = preview, sensor mode = custom3, iso = 200     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 242: profile = preview, sensor mode = Custom3, iso = 400
+    {set:{ // 242: profile = preview, sensor mode = custom3, iso = 400     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 243: profile = preview, sensor mode = Custom3, iso = 800
+    {set:{ // 243: profile = preview, sensor mode = custom3, iso = 800     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 244: profile = preview, sensor mode = Custom3, iso = 1200
+    {set:{ // 244: profile = preview, sensor mode = custom3, iso = 1200    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 245: profile = preview, sensor mode = Custom3, iso = 1600
+    {set:{ // 245: profile = preview, sensor mode = custom3, iso = 1600    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 246: profile = preview, sensor mode = Custom3, iso = 2000
+    {set:{ // 246: profile = preview, sensor mode = custom3, iso = 2000    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 247: profile = preview, sensor mode = Custom3, iso = 2400
+    {set:{ // 247: profile = preview, sensor mode = custom3, iso = 2400    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 248: profile = preview, sensor mode = Custom3, iso = 2800
+    {set:{ // 248: profile = preview, sensor mode = custom3, iso = 2800    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 249: profile = preview, sensor mode = Custom3, iso = 3200
+    {set:{ // 249: profile = preview, sensor mode = custom3, iso = 3200    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 250: profile = preview, sensor mode = Custom4, iso = 100
+    {set:{ // 250: profile = preview, sensor mode = custom4, iso = 100     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 251: profile = preview, sensor mode = Custom4, iso = 200
+    {set:{ // 251: profile = preview, sensor mode = custom4, iso = 200     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 252: profile = preview, sensor mode = Custom4, iso = 400
+    {set:{ // 252: profile = preview, sensor mode = custom4, iso = 400     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 253: profile = preview, sensor mode = Custom4, iso = 800
+    {set:{ // 253: profile = preview, sensor mode = custom4, iso = 800     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 254: profile = preview, sensor mode = Custom4, iso = 1200
+    {set:{ // 254: profile = preview, sensor mode = custom4, iso = 1200    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 255: profile = preview, sensor mode = Custom4, iso = 1600
+    {set:{ // 255: profile = preview, sensor mode = custom4, iso = 1600    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 256: profile = preview, sensor mode = Custom4, iso = 2000
+    {set:{ // 256: profile = preview, sensor mode = custom4, iso = 2000    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 257: profile = preview, sensor mode = Custom4, iso = 2400
+    {set:{ // 257: profile = preview, sensor mode = custom4, iso = 2400    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 258: profile = preview, sensor mode = Custom4, iso = 2800
+    {set:{ // 258: profile = preview, sensor mode = custom4, iso = 2800    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 259: profile = preview, sensor mode = Custom4, iso = 3200
+    {set:{ // 259: profile = preview, sensor mode = custom4, iso = 3200    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 260: profile = preview, sensor mode = Custom5, iso = 100
+    {set:{ // 260: profile = preview, sensor mode = custom5, iso = 100     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 261: profile = preview, sensor mode = Custom5, iso = 200
+    {set:{ // 261: profile = preview, sensor mode = custom5, iso = 200     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 262: profile = preview, sensor mode = Custom5, iso = 400
+    {set:{ // 262: profile = preview, sensor mode = custom5, iso = 400     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 263: profile = preview, sensor mode = Custom5, iso = 800
+    {set:{ // 263: profile = preview, sensor mode = custom5, iso = 800     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 264: profile = preview, sensor mode = Custom5, iso = 1200
+    {set:{ // 264: profile = preview, sensor mode = custom5, iso = 1200    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 265: profile = preview, sensor mode = Custom5, iso = 1600
+    {set:{ // 265: profile = preview, sensor mode = custom5, iso = 1600    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 266: profile = preview, sensor mode = Custom5, iso = 2000
+    {set:{ // 266: profile = preview, sensor mode = custom5, iso = 2000    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 267: profile = preview, sensor mode = Custom5, iso = 2400
+    {set:{ // 267: profile = preview, sensor mode = custom5, iso = 2400    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 268: profile = preview, sensor mode = Custom5, iso = 2800
+    {set:{ // 268: profile = preview, sensor mode = custom5, iso = 2800    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 269: profile = preview, sensor mode = Custom5, iso = 3200
+    {set:{ // 269: profile = preview, sensor mode = custom5, iso = 3200    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 270: profile = video, sensor mode = Custom1, iso = 100        
+    {set:{ // 270: profile = video, sensor mode = custom1, iso = 100       
         0x00000000, 0x004B0001, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000008, 0x00000030, 0x000000B9, 0x00000000, 0x00000000,
         0x0000621B, 0x01000002, 0x00000004, 0x00000006, 0x00000000, 0x00000000
     }},
-    {set:{ // 271: profile = video, sensor mode = Custom1, iso = 200        
+    {set:{ // 271: profile = video, sensor mode = custom1, iso = 200       
         0x00000000, 0x004B0001, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000008, 0x00000030, 0x000000B9, 0x00000000, 0x00000000,
         0x0000621B, 0x01000002, 0x00000004, 0x00000006, 0x00000000, 0x00000000
     }},
-    {set:{ // 272: profile = video, sensor mode = Custom1, iso = 400        
+    {set:{ // 272: profile = video, sensor mode = custom1, iso = 400       
         0x00000000, 0x004B0001, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000008, 0x00000030, 0x000000B9, 0x00000000, 0x00000000,
         0x0000621B, 0x01000002, 0x00000004, 0x00000006, 0x00000000, 0x00000000
     }},
-    {set:{ // 273: profile = video, sensor mode = Custom1, iso = 800        
+    {set:{ // 273: profile = video, sensor mode = custom1, iso = 800       
         0x00000000, 0x004B0001, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000008, 0x00000030, 0x000000B9, 0x00000000, 0x00000000,
         0x0000621B, 0x01000002, 0x00000004, 0x00000006, 0x00000000, 0x00000000
     }},
-    {set:{ // 274: profile = video, sensor mode = Custom1, iso = 1200       
+    {set:{ // 274: profile = video, sensor mode = custom1, iso = 1200      
         0x00000000, 0x004B0001, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000008, 0x00000030, 0x000000B9, 0x00000000, 0x00000000,
         0x0000621B, 0x01000002, 0x00000004, 0x00000006, 0x00000000, 0x00000000
     }},
-    {set:{ // 275: profile = video, sensor mode = Custom1, iso = 1600       
+    {set:{ // 275: profile = video, sensor mode = custom1, iso = 1600      
         0x00000000, 0x004B0003, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000008, 0x00000030, 0x000000B9, 0x00000000, 0x00000000,
         0x0000621B, 0x01000002, 0x00000004, 0x00000006, 0x00000000, 0x00000000
     }},
-    {set:{ // 276: profile = video, sensor mode = Custom1, iso = 2000       
+    {set:{ // 276: profile = video, sensor mode = custom1, iso = 2000      
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000008, 0x00000030, 0x000000B9, 0x00000000, 0x00000000,
         0x0000621B, 0x01000002, 0x00000004, 0x00000006, 0x00000000, 0x00000000
     }},
-    {set:{ // 277: profile = video, sensor mode = Custom1, iso = 2400       
+    {set:{ // 277: profile = video, sensor mode = custom1, iso = 2400      
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000008, 0x00000030, 0x000000B9, 0x00000000, 0x00000000,
         0x0000621B, 0x01000002, 0x00000004, 0x00000006, 0x00000000, 0x00000000
     }},
-    {set:{ // 278: profile = video, sensor mode = Custom1, iso = 2800       
+    {set:{ // 278: profile = video, sensor mode = custom1, iso = 2800      
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000008, 0x00000030, 0x000000B9, 0x00000000, 0x00000000,
         0x0000621B, 0x01000002, 0x00000004, 0x00000006, 0x00000000, 0x00000000
     }},
-    {set:{ // 279: profile = video, sensor mode = Custom1, iso = 3200       
+    {set:{ // 279: profile = video, sensor mode = custom1, iso = 3200      
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000008, 0x00000030, 0x000000B9, 0x00000000, 0x00000000,
         0x0000621B, 0x01000002, 0x00000004, 0x00000006, 0x00000000, 0x00000000
     }},
-    {set:{ // 280: profile = video, sensor mode = Custom2, iso = 100
+    {set:{ // 280: profile = video, sensor mode = custom2, iso = 100       
         0x00000000, 0x00460000, 0x00000200, 0x3E4D71A8, 0x003C0000, 0x00640061, 0x018904AF, 0x018900B9, 0x0000FE00, 0x00004E4E,
         0x0000621B, 0x01010314, 0x00010228, 0x0001013C, 0x3C3C4545, 0x00003232
     }},
-    {set:{ // 281: profile = video, sensor mode = Custom2, iso = 200
+    {set:{ // 281: profile = video, sensor mode = custom2, iso = 200       
         0x00000000, 0x00460000, 0x00000200, 0x3E4D71A8, 0x003C0000, 0x0064005D, 0x01A404A8, 0x01A400B9, 0x0000FE00, 0x00005454,
         0x0000621B, 0x01010314, 0x00010228, 0x0001013C, 0x43434C4C, 0x00003B3B
     }},
-    {set:{ // 282: profile = video, sensor mode = Custom2, iso = 400
+    {set:{ // 282: profile = video, sensor mode = custom2, iso = 400       
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046006C, 0x01C505C1, 0x01C500CB, 0x0000FD00, 0x00005A5A,
         0x0000621B, 0x01000214, 0x00010128, 0x0001013C, 0x46465050, 0x00003C3C
     }},
-    {set:{ // 283: profile = video, sensor mode = Custom2, iso = 800
+    {set:{ // 283: profile = video, sensor mode = custom2, iso = 800       
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x003C0000, 0x00640054, 0x01E00699, 0x01E000B9, 0x0000FE00, 0x00006060,
         0x0000621B, 0x01010314, 0x00010228, 0x0002013C, 0x53535A5A, 0x00004C4C
     }},
-    {set:{ // 284: profile = video, sensor mode = Custom2, iso = 1200
+    {set:{ // 284: profile = video, sensor mode = custom2, iso = 1200      
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x003C0000, 0x00640054, 0x01E00699, 0x01E000B9, 0x0000FE00, 0x00006060,
         0x0000621B, 0x01010314, 0x00010228, 0x0002013C, 0x53535A5A, 0x00004C4C
     }},
-    {set:{ // 285: profile = video, sensor mode = Custom2, iso = 1600
+    {set:{ // 285: profile = video, sensor mode = custom2, iso = 1600      
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x00460068, 0x01E005BA, 0x01E000C4, 0x0000FD00, 0x00006060,
         0x0000621B, 0x01000214, 0x00010128, 0x0001013C, 0x4C4C5656, 0x00004242
     }},
-    {set:{ // 286: profile = video, sensor mode = Custom2, iso = 2000
+    {set:{ // 286: profile = video, sensor mode = custom2, iso = 2000      
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x00460068, 0x01E005BA, 0x01E000C4, 0x0000FD00, 0x00006060,
         0x0000621B, 0x01000214, 0x00010128, 0x0001013C, 0x4C4C5656, 0x00004242
     }},
-    {set:{ // 287: profile = video, sensor mode = Custom2, iso = 2400
+    {set:{ // 287: profile = video, sensor mode = custom2, iso = 2400      
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046006C, 0x01C505C1, 0x01C500CB, 0x0000FD00, 0x00005A5A,
         0x0000621B, 0x01000214, 0x00010128, 0x0001013C, 0x46465050, 0x00003C3C
     }},
-    {set:{ // 288: profile = video, sensor mode = Custom2, iso = 2800
+    {set:{ // 288: profile = video, sensor mode = custom2, iso = 2800      
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046006C, 0x01C505C1, 0x01C500CB, 0x0000FD00, 0x00005A5A,
         0x0000621B, 0x01000214, 0x00010128, 0x0001013C, 0x46465050, 0x00003C3C
     }},
-    {set:{ // 289: profile = video, sensor mode = Custom2, iso = 3200
-       0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046006A, 0x01D305BE, 0x01D300C8, 0x0000FD00, 0x00005D5D,
+    {set:{ // 289: profile = video, sensor mode = custom2, iso = 3200      
+        0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x001E0000, 0x0046006A, 0x01D305BE, 0x01D300C8, 0x0000FD00, 0x00005D5D,
         0x0000621B, 0x01000214, 0x00010128, 0x0001013C, 0x49495353, 0x00003F3F
     }},
-    {set:{ // 290: profile = video, sensor mode = Custom3, iso = 100        
+    {set:{ // 290: profile = video, sensor mode = custom3, iso = 100       
         0x00000000, 0x004B0001, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000008, 0x00000030, 0x000000B9, 0x00000000, 0x00000000,
         0x0000621B, 0x01000002, 0x00000004, 0x00000006, 0x00000000, 0x00000000
     }},
-    {set:{ // 291: profile = video, sensor mode = Custom3, iso = 200        
+    {set:{ // 291: profile = video, sensor mode = custom3, iso = 200       
         0x00000000, 0x004B0001, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000008, 0x00000030, 0x000000B9, 0x00000000, 0x00000000,
         0x0000621B, 0x01000002, 0x00000004, 0x00000006, 0x00000000, 0x00000000
     }},
-    {set:{ // 292: profile = video, sensor mode = Custom3, iso = 400        
+    {set:{ // 292: profile = video, sensor mode = custom3, iso = 400       
         0x00000000, 0x004B0001, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000008, 0x00000030, 0x000000B9, 0x00000000, 0x00000000,
         0x0000621B, 0x01000002, 0x00000004, 0x00000006, 0x00000000, 0x00000000
     }},
-    {set:{ // 293: profile = video, sensor mode = Custom3, iso = 800        
+    {set:{ // 293: profile = video, sensor mode = custom3, iso = 800       
         0x00000000, 0x004B0001, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000008, 0x00000030, 0x000000B9, 0x00000000, 0x00000000,
         0x0000621B, 0x01000002, 0x00000004, 0x00000006, 0x00000000, 0x00000000
     }},
-    {set:{ // 294: profile = video, sensor mode = Custom3, iso = 1200       
+    {set:{ // 294: profile = video, sensor mode = custom3, iso = 1200      
         0x00000000, 0x004B0001, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000008, 0x00000030, 0x000000B9, 0x00000000, 0x00000000,
         0x0000621B, 0x01000002, 0x00000004, 0x00000006, 0x00000000, 0x00000000
     }},
-    {set:{ // 295: profile = video, sensor mode = Custom3, iso = 1600       
+    {set:{ // 295: profile = video, sensor mode = custom3, iso = 1600      
         0x00000000, 0x004B0003, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000008, 0x00000030, 0x000000B9, 0x00000000, 0x00000000,
         0x0000621B, 0x01000002, 0x00000004, 0x00000006, 0x00000000, 0x00000000
     }},
-    {set:{ // 296: profile = video, sensor mode = Custom3, iso = 2000       
+    {set:{ // 296: profile = video, sensor mode = custom3, iso = 2000      
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000008, 0x00000030, 0x000000B9, 0x00000000, 0x00000000,
         0x0000621B, 0x01000002, 0x00000004, 0x00000006, 0x00000000, 0x00000000
     }},
-    {set:{ // 297: profile = video, sensor mode = Custom3, iso = 2400       
+    {set:{ // 297: profile = video, sensor mode = custom3, iso = 2400      
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000008, 0x00000030, 0x000000B9, 0x00000000, 0x00000000,
         0x0000621B, 0x01000002, 0x00000004, 0x00000006, 0x00000000, 0x00000000
     }},
-    {set:{ // 298: profile = video, sensor mode = Custom3, iso = 2800       
+    {set:{ // 298: profile = video, sensor mode = custom3, iso = 2800      
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000008, 0x00000030, 0x000000B9, 0x00000000, 0x00000000,
         0x0000621B, 0x01000002, 0x00000004, 0x00000006, 0x00000000, 0x00000000
     }},
-    {set:{ // 299: profile = video, sensor mode = Custom3, iso = 3200       
+    {set:{ // 299: profile = video, sensor mode = custom3, iso = 3200      
         0x00000000, 0x004B0000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000008, 0x00000030, 0x000000B9, 0x00000000, 0x00000000,
         0x0000621B, 0x01000002, 0x00000004, 0x00000006, 0x00000000, 0x00000000
     }},
-    {set:{ // 300: profile = video, sensor mode = Custom4, iso = 100
-0x00000000, 0x004B0003, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x014A05A3, 0x014A00B9, 0x0000FE00, 0x00004242,
-0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x2E2E3838, 0x00002424
+    {set:{ // 300: profile = video, sensor mode = custom4, iso = 100       
+        0x00000000, 0x004B0003, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x014A05A3, 0x014A00B9, 0x0000FE00, 0x00004242,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x2E2E3838, 0x00002424
     }},
-    {set:{ // 301: profile = video, sensor mode = Custom4, iso = 200
-0x00000000, 0x004B0003, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x014A05A3, 0x014A00B9, 0x0000FE00, 0x00004242,
-0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x2E2E3838, 0x00002424
+    {set:{ // 301: profile = video, sensor mode = custom4, iso = 200       
+        0x00000000, 0x004B0003, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x014A05A3, 0x014A00B9, 0x0000FE00, 0x00004242,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x2E2E3838, 0x00002424
     }},
-    {set:{ // 302: profile = video, sensor mode = Custom4, iso = 400
-0x00000000, 0x004B0003, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x014A05A3, 0x014A00B9, 0x0000FE00, 0x00004242,
-0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x2E2E3838, 0x00002424
+    {set:{ // 302: profile = video, sensor mode = custom4, iso = 400       
+        0x00000000, 0x004B0003, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x014A05A3, 0x014A00B9, 0x0000FE00, 0x00004242,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x2E2E3838, 0x00002424
     }},
-    {set:{ // 303: profile = video, sensor mode = Custom4, iso = 800
-0x00000000, 0x004B0003, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x014A05A3, 0x014A00B9, 0x0000FE00, 0x00004242,
-0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x2E2E3838, 0x00002424
+    {set:{ // 303: profile = video, sensor mode = custom4, iso = 800       
+        0x00000000, 0x004B0003, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x014A05A3, 0x014A00B9, 0x0000FE00, 0x00004242,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x2E2E3838, 0x00002424
     }},
-    {set:{ // 304: profile = video, sensor mode = Custom4, iso = 1200
-0x00000000, 0x004B0003, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x014A05A3, 0x014A00B9, 0x0000FE00, 0x00004242,
-0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x2E2E3838, 0x00002424
+    {set:{ // 304: profile = video, sensor mode = custom4, iso = 1200      
+        0x00000000, 0x004B0003, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x014A05A3, 0x014A00B9, 0x0000FE00, 0x00004242,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x2E2E3838, 0x00002424
     }},
-    {set:{ // 305: profile = video, sensor mode = Custom4, iso = 1600
-0x00000000, 0x004B0003, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x014A05A3, 0x014A00B9, 0x0000FE00, 0x00004242,
-0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x2E2E3838, 0x00002424
+    {set:{ // 305: profile = video, sensor mode = custom4, iso = 1600      
+        0x00000000, 0x004B0003, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x014A05A3, 0x014A00B9, 0x0000FE00, 0x00004242,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x2E2E3838, 0x00002424
     }},
-    {set:{ // 306: profile = video, sensor mode = Custom4, iso = 2000
-0x00000000, 0x004B0001, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000078, 0x012203CC, 0x012200D6, 0x0000FC00, 0x00003A3A,
-0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x26263030, 0x00001C1C
+    {set:{ // 306: profile = video, sensor mode = custom4, iso = 2000      
+        0x00000000, 0x004B0001, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000078, 0x012203CC, 0x012200D6, 0x0000FC00, 0x00003A3A,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x26263030, 0x00001C1C
     }},
-    {set:{ // 307: profile = video, sensor mode = Custom4, iso = 2400
-0x00000000, 0x004B0001, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000078, 0x012203CC, 0x012200D6, 0x0000FC00, 0x00003A3A,
-0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x26263030, 0x00001C1C
+    {set:{ // 307: profile = video, sensor mode = custom4, iso = 2400      
+        0x00000000, 0x004B0001, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000078, 0x012203CC, 0x012200D6, 0x0000FC00, 0x00003A3A,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x26263030, 0x00001C1C
     }},
-    {set:{ // 308: profile = video, sensor mode = Custom4, iso = 2800
-0x00000000, 0x004B0001, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000078, 0x012203CC, 0x012200D6, 0x0000FC00, 0x00003A3A,
-0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x26263030, 0x00001C1C
+    {set:{ // 308: profile = video, sensor mode = custom4, iso = 2800      
+        0x00000000, 0x004B0001, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000078, 0x012203CC, 0x012200D6, 0x0000FC00, 0x00003A3A,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x26263030, 0x00001C1C
     }},
-    {set:{ // 309: profile = video, sensor mode = Custom4, iso = 3200
-0x00000000, 0x004B0001, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000078, 0x012203CC, 0x012200D6, 0x0000FC00, 0x00003A3A,
-0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x26263030, 0x00001C1C
+    {set:{ // 309: profile = video, sensor mode = custom4, iso = 3200      
+        0x00000000, 0x004B0001, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000078, 0x012203CC, 0x012200D6, 0x0000FC00, 0x00003A3A,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x26263030, 0x00001C1C
     }},
-    {set:{ // 310: profile = video, sensor mode = Custom5, iso = 100
+    {set:{ // 310: profile = video, sensor mode = custom5, iso = 100       
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 311: profile = video, sensor mode = Custom5, iso = 200
+    {set:{ // 311: profile = video, sensor mode = custom5, iso = 200       
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 312: profile = video, sensor mode = Custom5, iso = 400
+    {set:{ // 312: profile = video, sensor mode = custom5, iso = 400       
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 313: profile = video, sensor mode = Custom5, iso = 800
+    {set:{ // 313: profile = video, sensor mode = custom5, iso = 800       
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 314: profile = video, sensor mode = Custom5, iso = 1200
+    {set:{ // 314: profile = video, sensor mode = custom5, iso = 1200      
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 315: profile = video, sensor mode = Custom5, iso = 1600
+    {set:{ // 315: profile = video, sensor mode = custom5, iso = 1600      
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 316: profile = video, sensor mode = Custom5, iso = 2000
+    {set:{ // 316: profile = video, sensor mode = custom5, iso = 2000      
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 317: profile = video, sensor mode = Custom5, iso = 2400
+    {set:{ // 317: profile = video, sensor mode = custom5, iso = 2400      
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 318: profile = video, sensor mode = Custom5, iso = 2800
+    {set:{ // 318: profile = video, sensor mode = custom5, iso = 2800      
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 319: profile = video, sensor mode = Custom5, iso = 3200
+    {set:{ // 319: profile = video, sensor mode = custom5, iso = 3200      
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 320: profile = capture, sensor mode = Custom1, iso = 100
+    {set:{ // 320: profile = capture, sensor mode = custom1, iso = 100     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 321: profile = capture, sensor mode = Custom1, iso = 200
+    {set:{ // 321: profile = capture, sensor mode = custom1, iso = 200     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 322: profile = capture, sensor mode = Custom1, iso = 400
+    {set:{ // 322: profile = capture, sensor mode = custom1, iso = 400     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 323: profile = capture, sensor mode = Custom1, iso = 800
+    {set:{ // 323: profile = capture, sensor mode = custom1, iso = 800     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 324: profile = capture, sensor mode = Custom1, iso = 1200
+    {set:{ // 324: profile = capture, sensor mode = custom1, iso = 1200    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 325: profile = capture, sensor mode = Custom1, iso = 1600
+    {set:{ // 325: profile = capture, sensor mode = custom1, iso = 1600    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 326: profile = capture, sensor mode = Custom1, iso = 2000
+    {set:{ // 326: profile = capture, sensor mode = custom1, iso = 2000    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 327: profile = capture, sensor mode = Custom1, iso = 2400
+    {set:{ // 327: profile = capture, sensor mode = custom1, iso = 2400    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 328: profile = capture, sensor mode = Custom1, iso = 2800
+    {set:{ // 328: profile = capture, sensor mode = custom1, iso = 2800    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 329: profile = capture, sensor mode = Custom1, iso = 3200
+    {set:{ // 329: profile = capture, sensor mode = custom1, iso = 3200    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 330: profile = capture, sensor mode = Custom2, iso = 100
-0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000050, 0x01400592, 0x014000B9, 0x0000FE00, 0x00004040,
-0x0000421B, 0x01000014, 0x00000028, 0x0000003C, 0x2C2C3636, 0x00002222
+    {set:{ // 330: profile = capture, sensor mode = custom2, iso = 100     
+        0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000050, 0x01400592, 0x014000B9, 0x0000FE00, 0x00004040,
+        0x0000421B, 0x01000014, 0x00000028, 0x0000003C, 0x2C2C3636, 0x00002222
     }},
-    {set:{ // 331: profile = capture, sensor mode = Custom2, iso = 200
-				0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000032, 0x01680860, 0x016800B9, 0x0000FE00, 0x00004848,
-				0x0000421B, 0x0100000C, 0x00000019, 0x00000025, 0x34343E3E, 0x00002A2A
+    {set:{ // 331: profile = capture, sensor mode = custom2, iso = 200     
+        0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000032, 0x01680860, 0x016800B9, 0x0000FE00, 0x00004848,
+        0x0000421B, 0x0100000C, 0x00000019, 0x00000025, 0x34343E3E, 0x00002A2A
     }},
-    {set:{ // 332: profile = capture, sensor mode = Custom2, iso = 400
-0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x019005A3, 0x019000B9, 0x0000FE00, 0x00005050,
-0x0000421B, 0x01000014, 0x00000028, 0x0000003C, 0x3C3C4646, 0x000032322
+    {set:{ // 332: profile = capture, sensor mode = custom2, iso = 400     
+        0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000005A, 0x019005A3, 0x019000B9, 0x0000FE00, 0x00005050,
+        0x0000421B, 0x01000014, 0x00000028, 0x0000003C, 0x3C3C4646, 0x00032322
     }},
-    {set:{ // 333: profile = capture, sensor mode = Custom2, iso = 800
-0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000006E, 0x019005C4, 0x019000CE, 0x0000FD00, 0x00005050,
-0x0000421B, 0x01000014, 0x00000028, 0x0000003C, 0x3C3C4646, 0x00003232
+    {set:{ // 333: profile = capture, sensor mode = custom2, iso = 800     
+        0x00000000, 0x00320635, 0x00000200, 0x3E4D71A8, 0x00000000, 0x0000006E, 0x019005C4, 0x019000CE, 0x0000FD00, 0x00005050,
+        0x0000421B, 0x01000014, 0x00000028, 0x0000003C, 0x3C3C4646, 0x00003232
     }},
-    {set:{ // 334: profile = capture, sensor mode = Custom2, iso = 1200
-				0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x019A05BC, 0x019A00C6, 0x0000FD00, 0x00005252,
-				0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
+    {set:{ // 334: profile = capture, sensor mode = custom2, iso = 1200    
+        0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x019A05BC, 0x019A00C6, 0x0000FD00, 0x00005252,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
     }},
-    {set:{ // 335: profile = capture, sensor mode = Custom2, iso = 1600
-				0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x019A05BC, 0x019A00C6, 0x0000FD00, 0x00005252,
-				0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
+    {set:{ // 335: profile = capture, sensor mode = custom2, iso = 1600    
+        0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x00000000, 0x00000069, 0x019A05BC, 0x019A00C6, 0x0000FD00, 0x00005252,
+        0x0000621B, 0x01000014, 0x00000028, 0x0000003C, 0x3E3E4848, 0x00003434
     }},
-    {set:{ // 336: profile = capture, sensor mode = Custom2, iso = 2000
+    {set:{ // 336: profile = capture, sensor mode = custom2, iso = 2000    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 337: profile = capture, sensor mode = Custom2, iso = 2400
+    {set:{ // 337: profile = capture, sensor mode = custom2, iso = 2400    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 338: profile = capture, sensor mode = Custom2, iso = 2800
+    {set:{ // 338: profile = capture, sensor mode = custom2, iso = 2800    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 339: profile = capture, sensor mode = Custom2, iso = 3200
+    {set:{ // 339: profile = capture, sensor mode = custom2, iso = 3200    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 340: profile = capture, sensor mode = Custom3, iso = 100
+    {set:{ // 340: profile = capture, sensor mode = custom3, iso = 100     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 341: profile = capture, sensor mode = Custom3, iso = 200
+    {set:{ // 341: profile = capture, sensor mode = custom3, iso = 200     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 342: profile = capture, sensor mode = Custom3, iso = 400
+    {set:{ // 342: profile = capture, sensor mode = custom3, iso = 400     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 343: profile = capture, sensor mode = Custom3, iso = 800
+    {set:{ // 343: profile = capture, sensor mode = custom3, iso = 800     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 344: profile = capture, sensor mode = Custom3, iso = 1200
+    {set:{ // 344: profile = capture, sensor mode = custom3, iso = 1200    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 345: profile = capture, sensor mode = Custom3, iso = 1600
+    {set:{ // 345: profile = capture, sensor mode = custom3, iso = 1600    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 346: profile = capture, sensor mode = Custom3, iso = 2000
+    {set:{ // 346: profile = capture, sensor mode = custom3, iso = 2000    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 347: profile = capture, sensor mode = Custom3, iso = 2400
+    {set:{ // 347: profile = capture, sensor mode = custom3, iso = 2400    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 348: profile = capture, sensor mode = Custom3, iso = 2800
+    {set:{ // 348: profile = capture, sensor mode = custom3, iso = 2800    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 349: profile = capture, sensor mode = Custom3, iso = 3200
+    {set:{ // 349: profile = capture, sensor mode = custom3, iso = 3200    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 350: profile = capture, sensor mode = Custom4, iso = 100
+    {set:{ // 350: profile = capture, sensor mode = custom4, iso = 100     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 351: profile = capture, sensor mode = Custom4, iso = 200
+    {set:{ // 351: profile = capture, sensor mode = custom4, iso = 200     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 352: profile = capture, sensor mode = Custom4, iso = 400
+    {set:{ // 352: profile = capture, sensor mode = custom4, iso = 400     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 353: profile = capture, sensor mode = Custom4, iso = 800
+    {set:{ // 353: profile = capture, sensor mode = custom4, iso = 800     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 354: profile = capture, sensor mode = Custom4, iso = 1200
+    {set:{ // 354: profile = capture, sensor mode = custom4, iso = 1200    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 355: profile = capture, sensor mode = Custom4, iso = 1600
+    {set:{ // 355: profile = capture, sensor mode = custom4, iso = 1600    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 356: profile = capture, sensor mode = Custom4, iso = 2000
+    {set:{ // 356: profile = capture, sensor mode = custom4, iso = 2000    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 357: profile = capture, sensor mode = Custom4, iso = 2400
+    {set:{ // 357: profile = capture, sensor mode = custom4, iso = 2400    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 358: profile = capture, sensor mode = Custom4, iso = 2800
+    {set:{ // 358: profile = capture, sensor mode = custom4, iso = 2800    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 359: profile = capture, sensor mode = Custom4, iso = 3200
+    {set:{ // 359: profile = capture, sensor mode = custom4, iso = 3200    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 360: profile = capture, sensor mode = Custom5, iso = 100
+    {set:{ // 360: profile = capture, sensor mode = custom5, iso = 100     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 361: profile = capture, sensor mode = Custom5, iso = 200
+    {set:{ // 361: profile = capture, sensor mode = custom5, iso = 200     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 362: profile = capture, sensor mode = Custom5, iso = 400
+    {set:{ // 362: profile = capture, sensor mode = custom5, iso = 400     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 363: profile = capture, sensor mode = Custom5, iso = 800
+    {set:{ // 363: profile = capture, sensor mode = custom5, iso = 800     
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 364: profile = capture, sensor mode = Custom5, iso = 1200
+    {set:{ // 364: profile = capture, sensor mode = custom5, iso = 1200    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 365: profile = capture, sensor mode = Custom5, iso = 1600
+    {set:{ // 365: profile = capture, sensor mode = custom5, iso = 1600    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 366: profile = capture, sensor mode = Custom5, iso = 2000
+    {set:{ // 366: profile = capture, sensor mode = custom5, iso = 2000    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 367: profile = capture, sensor mode = Custom5, iso = 2400
+    {set:{ // 367: profile = capture, sensor mode = custom5, iso = 2400    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 368: profile = capture, sensor mode = Custom5, iso = 2800
+    {set:{ // 368: profile = capture, sensor mode = custom5, iso = 2800    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }},
-    {set:{ // 369: profile = capture, sensor mode = Custom5, iso = 3200
+    {set:{ // 369: profile = capture, sensor mode = custom5, iso = 3200    
         0x00000000, 0x00820000, 0x00000200, 0x3E4D71A8, 0x005A0000, 0x014A0440, 0x03290978, 0x032900B9, 0x0000FE00, 0x0000A2A2,
         0x0000621B, 0x01050610, 0x00080320, 0x000F0230, 0x9C9C9F9F, 0x00009A9A
     }}
